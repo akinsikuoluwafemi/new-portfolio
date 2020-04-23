@@ -1,0 +1,48 @@
+import React from 'react';
+import Upscroll from './Upscroll';
+const Footer = () => {
+    return (
+        <footer className="footer">
+            <div className="footer__one">
+                <div className="footer__one--container">
+                    <p className="text-white">I collaborate <br />with ambitious <br /> <span className="text-success">brands and people</span>, <br />lets build something together</p>
+ 
+                </div>
+                <span className="footer__one--score">+100%</span>
+                
+            </div>
+            <div className="footer__contact__wrapper bg-dark">
+                <div className="footer--contact">
+                    <p className="text-white">+2348103031691</p>
+                    <p className="text-white">akinsiku.o@yahoo.com</p>
+                    <p className="text-white">&copy; -copyright 2020 | Femi Akinsiku :)</p>
+                </div>
+
+                <Upscroll />
+                
+                
+            </div>
+            
+            
+
+
+
+           
+        </footer>
+    )
+}
+
+export default Footer;
+
+
+
+/////
+{/* <div className="footer__social">
+    
+<div className="footer__icons">
+                        
+                    </div>
+</div> */}
+
+
+///
