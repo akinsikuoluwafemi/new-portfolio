@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { Spring } from 'react-spring/renderprops';
 import axios from 'axios';
-import Alertcomponent from './alertComponent';
-// import Alert from '@material-ui/lab/Alert';
+// import Alertcomponent from './alertComponent';
+import Alert from '@material-ui/lab/Alert';
 
 
 
@@ -15,8 +15,8 @@ const Form = () => {
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
     const [textareaInput, setTextareainput] = useState('');
-    const [alert, setAlert] = useState(false);
-
+    const [severity, setSeverity] = useState('');
+    const [alertText, setAlertText] = useState('');
    
     
 
@@ -43,16 +43,23 @@ const Form = () => {
         }
         axios.post('https://formcarry.com/s/0bmXlpy81IpK', contact, {headers: {'Accept': 'application/json'}})
             .then(function (response) {
-                console.log(response.data.message);
-                setAlert(true);
+                setSeverity('success')
+                setAlertText(`${response.data.message} 😁`);
                 setTimeout(() => {
-                    setAlert(false)
+                    setSeverity('');
+                    setAlertText('');
                             
                 }, 3500)
 
             })
             .catch(function (error) {
-                console.log(error);            
+                severity('error')
+                setAlertText(`${error.data.message} ☹`);
+                setTimeout(() => {
+                    severity('');
+                    setAlertText('');
+                            
+                }, 3500)
 
             });
         
@@ -80,8 +87,9 @@ const Form = () => {
                             <p className="text-white  h4 greeting__container--intro">Lets work together to create game changing experiences that can give your brand wings.</p>
                         </div>
 
-                        {/* alert */}
-                        <div className=" alert-success">{alert && <Alertcomponent message={alert ? `Your message has been sent — Thanks for reaching out, I will revert.` : 'Your message was unable to send.'} />}</div>
+
+                        <Alert severity={severity}>{alertText}</Alert>
+
                         <div className="contain">
                             <form className="contain-form" onSubmit={handleSubmit} >
                                 <input type="text" className="name" placeholder="Full name" name="name" value={name} onChange={handleName} autoComplete="off" required />

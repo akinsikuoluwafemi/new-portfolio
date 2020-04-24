@@ -6,7 +6,7 @@ const Placeofworkinhome = () => {
             <div className="container">
                 <div className="row">
                     <div className="col-12 col-lg-6 ">
-                        <h3 className="text-white pb-4 font-weight-thin head--spacing">Places Of Work</h3>
+                        <h3 className="text-white pb-0 pb-lg-4 font-weight-thin head--spacing">Places Of Work</h3>
                         <p className="row pr-5 text-success">
                             &nbsp;
 

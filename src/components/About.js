@@ -23,8 +23,7 @@ const About = () => {
                         <div className="col-12 col-lg-6 ">
                             <h3 className="text-white pb-4 font-weight-thin head--spacing">About Me</h3>
                                         <p className="row pr-5 text-success text--spacing">
-                                            I am a Programme Assistant in the Build4SDG challenge 2020, with Facebook and Andela and I 
-                                am currently living in Lagos, Nigeria, where I do freelance jobs for businesses and people.                  
+                                            I am currently a Programme Assistant in the Build4SDG challenge 2020, with Facebook and Andela and I live in Lagos, Nigeria, where I do freelance jobs for businesses and people.                  
                 
                                 </p>
                                 <p className="row pr-5 text-success text--spacing">
