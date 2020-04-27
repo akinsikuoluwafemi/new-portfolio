@@ -1,5 +1,5 @@
 import React from 'react';
-import caviar from '../images/caviar.jpg';
+import oakhomesng from '../images/oakwoodhomes.jpg';
 import Card from './Card';
 // import learning from '../images/learning.jpg';
 import iwitness from '../images/iwitness.jpg';
@@ -33,7 +33,7 @@ const Portfolio = () =>{
                         </div>
 
                         <div className="col-12  col-lg-6  ">
-                            <Card image="https://image.freepik.com/free-psd/top-view-back-school-with-office-supplies_23-2148247566.jpg" header="Equal Learning" description="Web prototype" about="Equal learning is an app that allows kids have an agency and own their own learning." link="https://xd.adobe.com/view/ae4c40e6-feb0-4716-6a9e-69c421b81f9b-d87d/" />
+                            <Card image="https://image.freepik.com/free-psd/top-view-back-school-with-office-supplies_23-2148247566.jpg" header="Equal Learning" description="Web prototype" about="Equal learning is an app that allows kids have agency and own their own learning." link="https://xd.adobe.com/view/ae4c40e6-feb0-4716-6a9e-69c421b81f9b-d87d/" />
 
                         </div>
                         <div className="col-12  col-lg-6   ">
@@ -47,7 +47,7 @@ const Portfolio = () =>{
 
                         <div className="col-12  col-lg-6   ">
 
-                            <Card image={caviar} header="Chalets & Caviar" description="Wordpress Website" about="Chalets & caviar is a platform where you can view chalets that are up for rent or for sale." link="https://dev-carcav.pantheonsite.io/" />
+                            <Card image={oakhomesng} header="Oakwood Homes & Construct" description="Wordpress Website" about="This is a Real Estate website I built for a team in Lekki, Lagos Nigeria." link="https://oakhomesng.com/" />
                         </div>
 
 
