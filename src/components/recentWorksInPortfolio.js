@@ -17,7 +17,7 @@ const Recentworksinportfolio = () => {
                 <div className="row port">
                     <Portfolioscrollininhome />
                     <div className="m-auto py-4">
-                        <Link to="/portfolio" className="btn button-anim resume"><span>See Projects</span></Link>
+                        <Link to="/portfolio" className="btn-sm button-anim resume"><span>See Projects</span></Link>
                     </div>
                 </div>
             </div>
