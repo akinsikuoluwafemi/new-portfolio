@@ -23,7 +23,7 @@ const About = () => {
                         <div className="col-12 col-lg-6 ">
                             <h3 className="text-white pb-4 font-weight-thin head--spacing">About Me</h3>
                                         <p className="row pr-5 text-success text--spacing">
-                                            I am currently a Programme Assistant in the <a href="https://buildforsdg.andela.com/projects">Build4SDG challenge 2020</a> , with Facebook and Andela and a <a href="https://app.pluralsight.com/profile/oluwafemi-akinsiku">Google Cloud student</a> , I live in Lagos, Nigeria, where I do freelance jobs for businesses and teams.                  
+                                            I am currently a Programme Assistant in the &nbsp;<a href="https://buildforsdg.andela.com/projects">buildforsdg challenge &nbsp;</a>with Facebook and Andela and a&nbsp; <a href="https://app.pluralsight.com/profile/oluwafemi-akinsiku">Google Cloud student.</a>I live in Lagos, Nigeria, where I do freelance jobs for businesses and teams.                  
                 
                                 </p>
                                 <p className="row pr-5 text-success text--spacing">
