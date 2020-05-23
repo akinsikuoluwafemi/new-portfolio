@@ -13,17 +13,13 @@ class Portfolioscrollinhome extends Component {
     render() { 
         return (
             <div className="items ">
-                <a href="https://oakhomesng.com/"><img className="item item1" src={p1} alt="portfolio-image" /></a>
-                <a href="https://iwitness.netlify.com/"><img className="item item2" src={p2} alt="portfolio-image" /></a>
-                <a href="https://femiakinsikusresume.netlify.com/"> <img className="item item3" src={p3} alt="portfolio-image" /></a>
-                <a href="https://xd.adobe.com/view/ae4c40e6-feb0-4716-6a9e-69c421b81f9b-d87d/"> <img className="item item4" src={p4} alt="portfolio-image" /></a>
-                <a href="https://akinsikuoluwafemi.github.io/udacity-landing-page/"><img className="item item5" src={p5} alt="portfolio-image" /></a>
-
-
-            </div>
-           
-            
-         );
+                <a href="https://oakhomesng.com/"><img className="item item1" src={p1} alt="portfolio-image" target="_blank"/></a>
+                <a href="https://iwitness.netlify.com/"><img className="item item2" src={p2} alt="portfolio-image" target="_blank" /></a>
+                <a href="https://femiakinsikusresume.netlify.com/"> <img className="item item3" src={p3} alt="portfolio-image" target="_blank" /></a>
+                <a href="https://xd.adobe.com/view/ae4c40e6-feb0-4716-6a9e-69c421b81f9b-d87d/"> <img className="item item4" src={p4} alt="portfolio-image" target="_blank"/></a>
+                <a href="https://akinsikuoluwafemi.github.io/udacity-landing-page/"><img className="item item5" src={p5} alt="portfolio-image" target="_blank" /></a>
+            </div>     
+        );
     }
 }
  
