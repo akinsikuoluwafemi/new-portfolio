@@ -8,8 +8,7 @@ const AboutInHome = () => {
                     <div className="col-12 col-lg-6 ">
                         <h3 className="text-white pb-4 font-weight-thin head--spacing">About Me</h3>
                         <p className="row pr-5 text-success text--spacing">
-                             I am very passionate about technology, empathy & self-awareness. I am confident about myself and I believe that, trust should be given upfront and not really earned.
-
+                               I am a Full-stack software engineer. My dream is to harness the power of technology in the medical space, in construction, and in food, building products that can scale tremendously.
                         </p>
                         <p className="row pr-5 text-success text--spacing">
                             {/* write something */}

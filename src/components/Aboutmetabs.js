@@ -4,7 +4,7 @@ import reactimg from '../images/react-1.svg';
 import sql from '../images/sql.svg';
 import cssimg from '../images/css-3.svg';
 import ror from '../images/ruby.svg';
-import wordpressimg from '../images/wordpress.svg';
+import pythonimg from '../images/python.svg';
 import invision from '../images/invision.svg';
 import adobexd from '../images/adobe-xd-1.svg';
 import figma from '../images/figma-1.svg';
@@ -57,8 +57,8 @@ const Aboutmetabs = () => {
                                     <p className="ml-3">Ruby on Rails</p>
                                 </div>
                                 <div class="d-flex ">
-                                    <img src={wordpressimg} className="tools-logo"/>
-                                    <p className="ml-3">WORDPRESS</p>
+                                    <img src={pythonimg} className="tools-logo"/>
+                                    <p className="ml-3">Python</p>
                                 </div>
 
 
