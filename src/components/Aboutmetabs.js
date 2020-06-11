@@ -100,8 +100,12 @@ const Aboutmetabs = () => {
                 </div>
                 <div class="tab-pane fade" id="experience" role="tabpanel" aria-labelledby="experience-tab">
                     <div>
+                        <p className="tools__name">#GADS - Programme Assistant - <span className="tools__description">Google, Andela & Pluralsight </span></p>
+                        <p className="tools__description" >June 2020 - Dec 2020</p>
+                    </div>
+                    <div>
                         <p className="tools__name">#BuildforSDG Challenge - Programme Assistant - <span className="tools__description">Facebook & Andela </span></p>
-                        <p className="tools__description" >2020 - April</p>
+                        <p className="tools__description" >April 2020 - June 2020</p>
                     </div>
                     <div>
                         <p className="tools__name">Hackathon4Justice Mentor - <span className="tools__description">Facebook & UNODC </span></p>
