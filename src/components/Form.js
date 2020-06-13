@@ -84,7 +84,7 @@ const Form = () => {
                     <div className="container pt-5 pb-5 ">
                         <div className="greeting">
                             <h2 className=" pb-3 greeting__container">Hello</h2>
-                            <p className="text-white  h4 greeting__container--intro">Lets work together to create game changing experiences that can give your brand wings.</p>
+                            <p className="text-white  h4 greeting__container--intro col-lg-6">Got a question or proposal, or just want to say hello? Go ahead.</p>
                         </div>
 
 
@@ -97,10 +97,10 @@ const Form = () => {
                                 <input type="email" className="email" placeholder="Email" name="email" value={email} onChange={handleEmail} autoComplete="off" required/>
                                 <br />
 
-                                <textarea type="text" className="textarea " placeholder="Your message" name="message" rows="4" cols="50" value={textareaInput} onChange={handleTextarea} required />
+                                <textarea type="text" className="textarea " placeholder="Hi, I think we need a design system for our products at Company X. How soon can you hop on to discuss this?" name="message" rows="4" cols="50" value={textareaInput} onChange={handleTextarea} required />
                                 <br />
                                 <button class="register" >
-                                    <span>Submit</span>
+                                    <span>Shoot</span>
                                 </button>
                             </form>
                         </div>
