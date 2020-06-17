@@ -2,7 +2,7 @@ import React from 'react';
 import oakhomesng from '../images/oakwoodhomes.jpg';
 import Card from './Card';
 // import learning from '../images/learning.jpg';
-import iwitness from '../images/iwitness.jpg';
+import writia from '../images/writia.jpg';
 import resume from '../images/newresume.png';
 import udacitynew from '../images/udacitynew.png';
 // import cloud24 from '../images/cloud24.jpg';
@@ -28,7 +28,7 @@ const Portfolio = () =>{
                         </div>
 
                         <div className="col-12   col-lg-6  ">
-                            <Card image={iwitness} header="I-witness" description="Web Application" about="I - Witness allows users cascade incident reports to security officials on the go." link="https://iwitness.netlify.com/" />
+                            <Card image={writia} header="Writia" description="Rails Web Application" about="Writia allows users to login and document their thoughts or writings, they also get to see articles from other writers." link="https://writia.herokuapp.com/" />
 
                         </div>
 
