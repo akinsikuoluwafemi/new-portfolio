@@ -17,9 +17,9 @@ const Card = ({ image, header, description, about, link }) =>{
             {props => (
 
                 <div className="wrapper mb-4 " style={props}>
-                    <a href={link} target="_blank">
+                    <a href={link} target="_blank" rel="noopener noreferrer">
 
-                        <img className=" img-fluid wrapper__image" src={image} />
+                        <img className=" img-fluid wrapper__image" src={image} alt={""} />
 
 
                     </a>

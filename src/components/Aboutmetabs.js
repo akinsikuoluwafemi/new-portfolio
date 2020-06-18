@@ -34,30 +34,30 @@ const Aboutmetabs = () => {
                         <div className="d-flex ">
                             <ul className="list__item">
                                 <div className="d-flex mb-3">
-                                    <img src={htmlimg} className="tools-logo"/>
+                                    <img src={htmlimg} className="tools-logo" alt="html"/>
                                     <p className="ml-3">HTML5</p>
                                 </div>
                                 <div className="d-flex  mb-3">
-                                    <img src={reactimg} className="tools-logo"/>
+                                    <img src={reactimg} className="tools-logo" alt="react"/>
                                     <p className="ml-3">REACT</p>
                                 </div>
                                 <div class="d-flex ">
-                                    <img src={sql} className="tools-logo" />
+                                    <img src={sql} className="tools-logo" alt="sql" />
                                     <p className="ml-3">SQL</p>
                                 </div>
 
                             </ul>
                             <ul class="list__item ">
                                 <div className="d-flex  mb-3">
-                                    <img src={cssimg} className="tools-logo" />
+                                    <img src={cssimg} className="tools-logo" alt="css"/>
                                     <p className="ml-3">CSS</p>
                                 </div>
                                 <div class="d-flex  mb-3">
-                                    <img src={ror} style={{background: 'white'}} className="tools-logo"/>
+                                    <img src={ror} style={{background: 'white'}} className="tools-logo" alt=""/>
                                     <p className="ml-3">Ruby on Rails</p>
                                 </div>
                                 <div class="d-flex ">
-                                    <img src={pythonimg} className="tools-logo"/>
+                                    <img src={pythonimg} className="tools-logo" alt="python"/>
                                     <p className="ml-3">Python</p>
                                 </div>
 
@@ -72,22 +72,22 @@ const Aboutmetabs = () => {
                             <ul className="list__item">
                                 
                                 <div class="d-flex  mb-3">
-                                    <img src={invision} className="tools-logo" />
+                                    <img src={invision} className="tools-logo" alt="invision"/>
                                     <p className="ml-3">INVISION</p>
                                 </div>
                                 <div class="d-flex ">
-                                    <img src={adobexd} className="tools-logo" />
+                                    <img src={adobexd} className="tools-logo" alt="adobe" />
                                     <p className="ml-3">ADOBEXD</p>
                                 </div>
 
                             </ul>
                             <ul class="list__item ">
                                 <div class="d-flex mb-3">
-                                    <img src={figma} className="tools-logo" />
+                                    <img src={figma} className="tools-logo" alt="figma"/>
                                     <p className="ml-3">FIGMA</p>
                                 </div>
                                 <div class="d-flex  mb-3">
-                                    <img src={sketch} className="tools-logo" />
+                                    <img src={sketch} className="tools-logo" alt="sketch"/>
                                     <p className="ml-3">SKETCH</p>
                                 </div>
                                 
