@@ -18,15 +18,8 @@ const Footer = () => {
                     <p className="text-white">&copy; -copyright 2020 | Femi Akinsiku :)</p>
                 </div>
 
-                <Upscroll />
-                
-                
+                <Upscroll />    
             </div>
-            
-            
-
-
-
            
         </footer>
     )
@@ -36,13 +29,3 @@ export default Footer;
 
 
 
-/////
-{/* <div className="footer__social">
-    
-<div className="footer__icons">
-                        
-                    </div>
-</div> */}
-
-
-///

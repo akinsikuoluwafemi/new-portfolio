@@ -3,7 +3,7 @@ import Jumbotron from './Jumbotron';
 import Aboutinhome from './Aboutinhome';
 import Recentworksinportfolio from './recentWorksInPortfolio';
 import Placesofworkinhome from './placeOfWorkInHome';
-import contactInHome from './contactInHome';
+import ContactInHome from './ContactInHome';
 import Footer from './Footer';
 
 const Home = () => {
@@ -20,7 +20,7 @@ const Home = () => {
                 </div>
             </div>
             <div className="bg-reachout">
-                <contactInHome />
+                <ContactInHome />
 
             </div>
             <Footer/>
