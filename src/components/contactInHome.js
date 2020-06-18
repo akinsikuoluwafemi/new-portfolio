@@ -2,7 +2,7 @@ import React from 'react';
 import Link from 'react-router-dom/Link';
 
 
-const ContactInHome = () => {
+const contactinHome = () => {
     return (
         <div className="bg--reachout pimg2 ">
     
@@ -17,4 +17,4 @@ const ContactInHome = () => {
     )
 }
 
-export default ContactInHome;
+export default contactinHome;
