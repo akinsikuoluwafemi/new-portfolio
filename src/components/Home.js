@@ -3,7 +3,7 @@ import Jumbotron from './Jumbotron';
 import Aboutinhome from './Aboutinhome';
 import Recentworksinportfolio from './recentWorksInPortfolio';
 import Placesofworkinhome from './placeOfWorkInHome';
-import ContactInHome from './ContactInHome';
+import ContactInHome from "./ContactInHome";
 import Footer from './Footer';
 
 const Home = () => {
