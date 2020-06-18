@@ -3,8 +3,8 @@ import Jumbotron from './Jumbotron';
 import Aboutinhome from './Aboutinhome';
 import Recentworksinportfolio from './recentWorksInPortfolio';
 import Placesofworkinhome from './placeOfWorkInHome';
-import contactinHome from "./contactinHome";
 import Footer from './Footer';
+import ContactforHome from './ContactforHome';
 
 const Home = () => {
     return (
@@ -17,13 +17,14 @@ const Home = () => {
                     <Recentworksinportfolio />
                     <Placesofworkinhome />
 
+
                 </div>
             </div>
-            <div className="bg-reachout">
-                <contactinHome />
+            
+           <ContactforHome/>
+            
+            <Footer />
 
-            </div>
-            <Footer/>
         </div>
         
         
