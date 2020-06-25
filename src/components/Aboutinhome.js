@@ -17,12 +17,12 @@ const AboutInHome = () => {
                     <div className="col-12 col-lg-6">
                         <hr className="gb " />
                         <p className="row pt-4 pl-2 text-white text--spacing">
-                            When I am not coding I do a lot of other awesome things as well, like spending time on a VR headset and forgeting my self there <span role="img" aria-labelledby="smile">😁</span>, I also do things like,
+                            When I am not coding I do a lot of other awesome things as well, like spending time on a VR headset and forgeting my self there. I also do things like,
                         </p>
                         <ul className="text--spacing">
                             <li className="listcircle"><span className="text-white">Dancing Salsa.</span></li>
                             <li className="listcircle"><span className="text-white">fantasizing about being an on air personality.</span></li>
-                            <li className="listcircle"><span className="text-white">Thinking about sking and sky diving e.t.c </span></li>
+                            <li className="listcircle"><span className="text-white">Thinking about skiing and sky diving e.t.c </span></li>
                         </ul>
                         <p className="row text-white text--spacing">
                             I am also a very awesome cook too <span role="img" aria-labelledby="smile">😁</span>.

@@ -15,19 +15,19 @@ const Aboutmetabs = () => {
     return (
         <div className="text-white">
             
-            <ul class="nav nav-tabs" id="myTab" role="tablist">
-                <li class="nav-item">
+            <ul className="nav nav-tabs" id="myTab" role="tablist">
+                <li className="nav-item">
                     <a className="nav-link active mr-md-0 mr-lg-3 h4" id="skills-tab" data-toggle="tab" href="#skills" role="tab" aria-controls="skills" aria-selected="true">Main Skills</a>
                 </li>
-                <li class="nav-item">
+                <li className="nav-item">
                     <a className="nav-link mr-md-0 mr-lg-3 h4" id="experience-tab" data-toggle="tab" href="#experience" role="tab" aria-controls="experience" aria-selected="false">Experience</a>
                 </li>
-                <li class="nav-item">
+                <li className="nav-item">
                     <a className="nav-link h4" id="education-tab" data-toggle="tab" href="#education" role="tab" aria-controls="education" aria-selected="false">Education</a>
                 </li>
             </ul>
-            <div class="tab-content" id="myTabContent">
-                <div class="tab-pane fade show active" id="skills" role="tabpanel" aria-labelledby="skills-tab">
+            <div className="tab-content" id="myTabContent">
+                <div className="tab-pane fade show active" id="skills" role="tabpanel" aria-labelledby="skills-tab">
                     <div className="pt-3">
                         <p className="tools__name">WebApp Development</p>
                         <p className="tools__description">This are some of the tools & concepts I use when I work.</p>
@@ -41,22 +41,22 @@ const Aboutmetabs = () => {
                                     <img src={reactimg} className="tools-logo" alt="react"/>
                                     <p className="ml-3">REACT</p>
                                 </div>
-                                <div class="d-flex ">
+                                <div className="d-flex ">
                                     <img src={sql} className="tools-logo" alt="sql" />
                                     <p className="ml-3">SQL</p>
                                 </div>
 
                             </ul>
-                            <ul class="list__item ">
+                            <ul className="list__item ">
                                 <div className="d-flex  mb-3">
                                     <img src={cssimg} className="tools-logo" alt="css"/>
                                     <p className="ml-3">CSS</p>
                                 </div>
-                                <div class="d-flex  mb-3">
+                                <div className="d-flex  mb-3">
                                     <img src={ror} style={{background: 'white'}} className="tools-logo" alt=""/>
                                     <p className="ml-3">Ruby on Rails</p>
                                 </div>
-                                <div class="d-flex ">
+                                <div className="d-flex ">
                                     <img src={pythonimg} className="tools-logo" alt="python"/>
                                     <p className="ml-3">Python</p>
                                 </div>
@@ -71,22 +71,22 @@ const Aboutmetabs = () => {
                         <div className="d-flex ">
                             <ul className="list__item">
                                 
-                                <div class="d-flex  mb-3">
+                                <div className="d-flex  mb-3">
                                     <img src={invision} className="tools-logo" alt="invision"/>
                                     <p className="ml-3">INVISION</p>
                                 </div>
-                                <div class="d-flex ">
+                                <div className="d-flex ">
                                     <img src={adobexd} className="tools-logo" alt="adobe" />
                                     <p className="ml-3">ADOBEXD</p>
                                 </div>
 
                             </ul>
-                            <ul class="list__item ">
-                                <div class="d-flex mb-3">
+                            <ul className="list__item ">
+                                <div className="d-flex mb-3">
                                     <img src={figma} className="tools-logo" alt="figma"/>
                                     <p className="ml-3">FIGMA</p>
                                 </div>
-                                <div class="d-flex  mb-3">
+                                <div className="d-flex  mb-3">
                                     <img src={sketch} className="tools-logo" alt="sketch"/>
                                     <p className="ml-3">SKETCH</p>
                                 </div>
@@ -98,7 +98,7 @@ const Aboutmetabs = () => {
                     </div>
                 
                 </div>
-                <div class="tab-pane fade" id="experience" role="tabpanel" aria-labelledby="experience-tab">
+                <div className="tab-pane fade" id="experience" role="tabpanel" aria-labelledby="experience-tab">
                     <div>
                         <p className="tools__name">#GADS - Programme Assistant - <span className="tools__description">Google, Andela & Pluralsight </span></p>
                         <p className="tools__description" >June 2020 - Dec 2020</p>
@@ -118,7 +118,7 @@ const Aboutmetabs = () => {
 
 
                 </div>
-                <div class="tab-pane fade" id="education" role="tabpanel" aria-labelledby="education-tab">
+                <div className="tab-pane fade" id="education" role="tabpanel" aria-labelledby="education-tab">
                     <div>
                         <p className="tools__name">Web Developer Diploma - <span className="tools__description">OpenClassrooms</span></p>
                         <p className="tools__description">2020 - 2021</p>

@@ -1,14 +1,9 @@
-import React, {Component} from 'react';
+import React from 'react';
 import './App.scss';
 import Navigation from './components/Navigation';
 
-class App extends Component {
-  
-  
+const App = () => {
 
-
-  render() {
-    
     return (
       <div>
       
@@ -16,7 +11,6 @@ class App extends Component {
       
       </div>
     );
-  }
 }
 
   

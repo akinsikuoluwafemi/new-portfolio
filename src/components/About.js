@@ -1,9 +1,20 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import Aboutmetabs from './Aboutmetabs';
 import Footer from './Footer';
 import { Spring } from 'react-spring/renderprops';
+import Aos from 'aos';
+import "aos/dist/aos.css";
 
 const About = () => {
+    
+     useEffect(() => {
+        Aos.init({
+            
+            duration: 2500
+        
+        });
+    }, [])
+
     return (
         <div>
 
@@ -64,8 +75,8 @@ const About = () => {
                 
 
                 <div className="pimg3">
-                    <p className="ptext">
-                        <span to="/contact" className="border--trans ">
+                    <p data-aos="zoom-out" className="ptext">
+                        <span  to="/contact" className="border--trans ">
                     I am available for freelance hire
                             
                     </span>

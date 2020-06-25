@@ -1,6 +1,7 @@
 import React,{Component} from 'react'
 import { animateScroll as scroll } from "react-scroll";
-
+import Aos from 'aos';
+import "aos/dist/aos.css";
 
 
 
@@ -13,10 +14,16 @@ import { animateScroll as scroll } from "react-scroll";
      
         scrollToTop = () => {
         scroll.scrollToTop(); 
-    };
+        };
+     
+     componentDidMount() {
+        Aos.init({
+            duration: 2000
+        })
+     }
      render(){
          return (
-             <div className="scroll-dir" ref={this.scrollRef} onClick={this.scrollToTop}>
+             <div data-aos="slide-up" className="scroll-dir" ref={this.scrollRef} onClick={this.scrollToTop}>
                  <i className="fas fa-chevron-circle-up fa-2x"></i>
              </div>
          )

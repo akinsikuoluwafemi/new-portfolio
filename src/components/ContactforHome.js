@@ -9,7 +9,7 @@ const ContactforHome = () => {
              <div className="bg-reachout">
                  <div className="bg--reachout pimg2 ">
     
-                    <p className="ptext">
+                    <p data-aos="zoom-out"  className="ptext">
                         <Link to="/contact" className="border--grey ">
                         Get In touch
                                 

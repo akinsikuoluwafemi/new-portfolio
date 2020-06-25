@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import { Spring } from 'react-spring/renderprops';
-
+// import Mode from './Mode';
 
 const Header = () => {
     return (
@@ -20,13 +20,15 @@ const Header = () => {
                         <div className="row">
                             <div className="col navbar navbar-expand-lg navbar-dark">
 
-                                <NavLink  to="/" className="navbar-brand " ><img src="https://fontmeme.com/permalink/200402/1bbfb101792de39b85fcea68e43b26ac.png" alt="signature-fonts" border="0" /></NavLink>
+                                <NavLink  to="/" className="navbar-brand " ><img src="https://fontmeme.com/permalink/200402/1bbfb101792de39b85fcea68e43b26ac.png" alt="signature-fonts" border="0" /> </NavLink>
                                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#contentOfNavbar" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                                     <span className="navbar-toggler-icon"></span>
                                 </button>
                                 <div id="contentOfNavbar" className="collapse navbar-collapse">
                                     <ul className="navbar-nav mr-auto">
-
+                                        {/* <li className="nav-item ">
+                                            <Mode/>
+                                        </li> */}
                                     </ul>
 
 
