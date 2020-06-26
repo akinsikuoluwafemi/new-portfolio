@@ -1,9 +1,8 @@
 .bubbles {
     position: absolute;
-    /* background: pink; */
     top: 110%;
     left: 0;
-    width:100%;
+    width:100vw;
     height:100vh;
     z-index: 0;
     -webkit-transform: translateZ(0);
@@ -36,6 +35,7 @@
     animation-delay: 2s;
     -webkit-animation-duration: 17s;
     animation-duration: 17s;
+
 }
 
 .bubbles li:nth-child(3) {
@@ -51,7 +51,8 @@
 .bubbles li:nth-child(4) {
     width: 80px;
     height: 80px;
-    left: 80%;
+    left: 70%;
+
     -webkit-animation-delay: 1s;
     animation-delay: 1s;
     -webkit-animation-duration: 22s;
@@ -90,4 +91,16 @@
     }
 }
 
-body {overflow-x:hidden;}
+body {
+    
+    overflow-x:hidden;
+
+}
+
+@media(max-width: 320px){
+  body,html {
+    overflow-x:hidden;
+    width: 320px;
+     
+  }
+}

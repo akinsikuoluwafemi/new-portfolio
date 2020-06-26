@@ -23,7 +23,7 @@ import "aos/dist/aos.css";
      }
      render(){
          return (
-             <div data-aos="slide-up" className="scroll-dir" ref={this.scrollRef} onClick={this.scrollToTop}>
+             <div className="scroll-dir" ref={this.scrollRef} onClick={this.scrollToTop}>
                  <i className="fas fa-chevron-circle-up fa-2x"></i>
              </div>
          )

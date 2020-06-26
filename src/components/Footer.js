@@ -25,7 +25,7 @@ const Footer = () => {
                 <div className="footer--contact">
                     <p className="text-white">+2348103031691</p>
                     <p className="text-white">akinsiku.o@yahoo.com</p>
-                    <p className="text-white">&copy; -copyright 2020 | Femi Akinsiku :)</p>
+                    <p className="text-white">&copy; -copyright 2020 | Femi Akinsiku</p>
                 </div>
 
                 <Upscroll  />    
