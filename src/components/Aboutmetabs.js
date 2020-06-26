@@ -54,7 +54,7 @@ const Aboutmetabs = () => {
                                 </div>
                                 <div className="d-flex  mb-3">
                                     <img src={ror} style={{background: 'white'}} className="tools-logo" alt=""/>
-                                    <p className="ml-3">Ruby on Rails</p>
+                                    <p className="ml-3">Ruby</p>
                                 </div>
                                 <div className="d-flex ">
                                     <img src={pythonimg} className="tools-logo" alt="python"/>
