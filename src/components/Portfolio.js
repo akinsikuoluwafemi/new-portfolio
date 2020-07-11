@@ -1,11 +1,10 @@
 import React from 'react';
 import oakhomesng from '../images/oakwoodhomes.jpg';
 import Card from './Card';
-// import learning from '../images/learning.jpg';
 import writia from '../images/writia.jpg';
 import resume from '../images/newresume.png';
 import udacitynew from '../images/udacitynew.png';
-// import cloud24 from '../images/cloud24.jpg';
+import move from '../images/move.jpg';
 import Footer from './Footer';
 
 
@@ -28,12 +27,12 @@ const Portfolio = () =>{
                         </div>
 
                         <div className="col-12   col-lg-6  ">
-                            <Card image={writia} header="Writia" description="Rails Web Application" about="Writia allows users to login and document their thoughts or writings, they also get to see articles from other writers." link="https://writia.herokuapp.com/" />
+                            <Card image={writia} header="Writia" description="Ruby On Rails Application" about="Writia allows users to login and document their thoughts or writings, they also get to see articles from other writers." link="https://writia.herokuapp.com/" />
 
                         </div>
 
                         <div className="col-12  col-lg-6  ">
-                            <Card image="https://image.freepik.com/free-psd/top-view-back-school-with-office-supplies_23-2148247566.jpg" header="Equal Learning" description="Web prototype" about="Equal learning is an app that allows kids have agency and own their own learning." link="https://xd.adobe.com/view/ae4c40e6-feb0-4716-6a9e-69c421b81f9b-d87d/" />
+                            <Card image={move} header="Move and Groove" description="Ruby On Rails Application" about="Move and Groove is an activity tracker tool that allows users sign up and create activities as well as track their activities." link="https://fitandtracker.herokuapp.com/" />
 
                         </div>
                         <div className="col-12  col-lg-6   ">
