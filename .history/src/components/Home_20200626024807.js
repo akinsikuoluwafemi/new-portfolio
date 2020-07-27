@@ -12,6 +12,14 @@ const Home = () => {
         <div>
             <div className="bg-root">
                 <div className="container pt-5">
+                    
+                    <ul className="bubbles">
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
 
                     <Jumbotron />
                     <Aboutinhome />
