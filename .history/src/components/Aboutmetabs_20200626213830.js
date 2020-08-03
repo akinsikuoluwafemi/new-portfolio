@@ -120,8 +120,8 @@ const Aboutmetabs = () => {
                 </div>
                 <div className="tab-pane fade" id="education" role="tabpanel" aria-labelledby="education-tab">
                     <div>
-                        <p className="tools__name"><a style={{ color: '#666974'}} href="https://www.francecompetences.fr/recherche/rncp/27099/">"Full-Stack Developer" bachelor's-level diploma -</a><span className="tools__description"> OpenClassrooms</span></p>
-                        <p className="tools__description">2020 Feb - 2021 Feb</p>
+                        <p className="tools__name">Web Developer Diploma - <span className="tools__description">OpenClassrooms</span></p>
+                        <p className="tools__description">2020 - 2021</p>
                     </div>
                     <div>
                         <p className="tools__name">Stutern Graduate Accelerator - <span className="tools__description">Stutern</span></p>
