@@ -14,14 +14,6 @@ const Placeofworkinhome = () => {
                     </div>
                     <div className="col-12 col-lg-6">
                         <hr className="gb " />
-
-                        <div className="d-flex justify-content-between ">
-                            <div className="text-white ">
-                                <p>Andela </p>
-                                <p className="workdate">Presently Work there</p>
-                            </div>
-                            <p className="text-white">Programe Assistant</p>
-                        </div>
                         
                         <div className="d-flex justify-content-between ">
                             <div className="text-white ">

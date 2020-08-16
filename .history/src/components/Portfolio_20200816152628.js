@@ -21,11 +21,6 @@ const Portfolio = () =>{
 
                     <div className="row ">
                         <div className="col-12  col-lg-6  ">
-                            <Card image={biking} header="Boulder Bike Tour" description="React and Rails Application" about="This is a fullstack application that lets users know when a prestegious cycling event will take place in colorado, I used rails on the backend and react on the front end, this app allows users see the exact location of riders on google map in real time." link="https://boulder-bike-race.netlify.app/" />
-
-                        </div>
-                        
-                        <div className="col-12  col-lg-6  ">
                             <Card image={move} header="Move and Groove" description="Ruby On Rails Application" about="Move and Groove is an activity tracker tool that allows users sign up and create activities as well as track their activities." link="https://fitandtracker.herokuapp.com/" />
 
                         </div>

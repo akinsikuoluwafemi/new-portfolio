@@ -17,7 +17,7 @@ const Placeofworkinhome = () => {
 
                         <div className="d-flex justify-content-between ">
                             <div className="text-white ">
-                                <p>Andela </p>
+                                <p>Andela (Talent Partnership Team)</p>
                                 <p className="workdate">Presently Work there</p>
                             </div>
                             <p className="text-white">Programe Assistant</p>

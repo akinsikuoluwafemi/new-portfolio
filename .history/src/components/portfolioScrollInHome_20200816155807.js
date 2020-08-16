@@ -17,7 +17,7 @@ class Portfolioscrollinhome extends Component {
                 <a rel="noopener noreferrer" target="_blank" href="https://fitandtracker.herokuapp.com/"><img className="item item2" src={p2} alt="portfolio" /></a>
                 <a rel="noopener noreferrer" target="_blank" href="https://femiakinsikusresume.netlify.com/"> <img className="item item3" src={p3} alt="portfolio"  /></a>
                 <a rel="noopener noreferrer" target="_blank" href="https://xd.adobe.com/view/ae4c40e6-feb0-4716-6a9e-69c421b81f9b-d87d/"> <img className="item item4" src={p4} alt="portfolio" /></a>
-                <a rel="noopener noreferrer" target="_blank" href="https://akinsikuoluwafemi.github.io/udacity-landing-page/"><img className="item item5" src={p5} alt="portfolio"  /></a>
+                <a target="_blank" href="https://akinsikuoluwafemi.github.io/udacity-landing-page/"><img className="item item5" src={p5} alt="portfolio"  /></a>
             </div>     
         );
     }

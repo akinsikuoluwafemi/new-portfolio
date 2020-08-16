@@ -10,9 +10,7 @@ const AboutInHome = () => {
                         <p className="row pr-5 text-success text--spacing" >
                                I am a Full-stack software engineer. My dream is to harness the power of technology in the medical space, in construction, and in food, building products that touch lives.
                         </p>
-                        <p className="row pr-5 text-success text--spacing">
-                            {/* write something */}
-                        </p>
+                        
                     </div>
                     <div className="col-12 col-lg-6">
                         <hr className="gb " />
