@@ -50,14 +50,14 @@ const Aboutmetabs = () => {
                             <ul className="list__item ">
                                 <div className="d-flex  mb-3">
                                     <img src={cssimg} className="tools-logo" alt="css"/>
-                                    <p className="ml-3">CSS3</p>
+                                    <p className="ml-3">CSS</p>
                                 </div>
                                 <div className="d-flex  mb-3">
                                     <img src={ror} style={{background: 'white'}} className="tools-logo" alt=""/>
                                     <p className="ml-3">Ruby</p>
                                 </div>
                                 <div className="d-flex ">
-                                    <img src={graphqlimg} className="tools-logo" alt="graphql"/>
+                                    <img src={graphqlimg} className="tools-logo" alt="python"/>
                                     <p className="ml-3">GraphQL</p>
                                 </div>
 

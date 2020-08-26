@@ -57,7 +57,7 @@ const Aboutmetabs = () => {
                                     <p className="ml-3">Ruby</p>
                                 </div>
                                 <div className="d-flex ">
-                                    <img src={graphqlimg} className="tools-logo" alt="graphql"/>
+                                    <img src={graphqlimg} className="tools-logo" alt="py"/>
                                     <p className="ml-3">GraphQL</p>
                                 </div>
 

@@ -4,7 +4,7 @@ import reactimg from '../images/react-1.svg';
 import sql from '../images/sql.svg';
 import cssimg from '../images/css-3.svg';
 import ror from '../images/ruby.svg';
-import graphqlimg from '../images/graphql-icon.svg';
+import pythonimg from '../images/graphql-icon.svg';
 import invision from '../images/invision.svg';
 import adobexd from '../images/adobe-xd-1.svg';
 import figma from '../images/figma-1.svg';
@@ -50,15 +50,15 @@ const Aboutmetabs = () => {
                             <ul className="list__item ">
                                 <div className="d-flex  mb-3">
                                     <img src={cssimg} className="tools-logo" alt="css"/>
-                                    <p className="ml-3">CSS3</p>
+                                    <p className="ml-3">CSS</p>
                                 </div>
                                 <div className="d-flex  mb-3">
                                     <img src={ror} style={{background: 'white'}} className="tools-logo" alt=""/>
                                     <p className="ml-3">Ruby</p>
                                 </div>
                                 <div className="d-flex ">
-                                    <img src={graphqlimg} className="tools-logo" alt="graphql"/>
-                                    <p className="ml-3">GraphQL</p>
+                                    <img src={pythonimg} className="tools-logo" alt="python"/>
+                                    <p className="ml-3">Python</p>
                                 </div>
 
 
