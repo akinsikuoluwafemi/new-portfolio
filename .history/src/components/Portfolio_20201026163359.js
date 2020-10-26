@@ -28,23 +28,24 @@ const Portfolio = () =>{
                 />
               </div>
 
-              <div className="col-12  col-lg-6  ">
-                <Card
-                  image={oakhomesng}
-                  header="BuildForSDG Projects"
-                  description="React Project"
-                  about="This is a Website I built in React, it hosted the buildforsdg cohort one project."
-                  link="https://sdgbuild.netlify.app/"
-                />
-              </div>
-
-              <div className="col-12  col-lg-6 ">
+                        <div className="col-12  col-lg-6  ">
+                            
                 <Card
                   image={move}
                   header="Move and Groove"
                   description="Ruby On Rails Application"
                   about="Move and Groove is an activity tracker tool that allows users sign up and create activities as well as track their activities."
                   link="https://fitandtracker.herokuapp.com/"
+                />
+              </div>
+
+              <div className="col-12  col-lg-6   ">
+                <Card
+                  image="https://images.ctfassets.net/clveum0ikkbk/3PAwD9ujeEEQ4sy22W0KEG/1d0f26299dd1646a74824cbe9cad460a/weather-app.jpg?w=1024&h=576&q=100"
+                  header="Cloud 24"
+                  description="Javascript Web Application"
+                  about="Cloud 24 allows users to extract weather informations, like temperature, wind-direction, pressure e.t.c."
+                  link="https://akinsikuoluwafemi.github.io/Cloud24/"
                 />
               </div>
 
@@ -68,13 +69,7 @@ const Portfolio = () =>{
               </div>
 
               <div className="col-12  col-lg-6">
-                <Card
-                  image="https://images.ctfassets.net/clveum0ikkbk/3PAwD9ujeEEQ4sy22W0KEG/1d0f26299dd1646a74824cbe9cad460a/weather-app.jpg?w=1024&h=576&q=100"
-                  header="Cloud 24"
-                  description="Javascript Web Application"
-                  about="Cloud 24 allows users to extract weather informations, like temperature, wind-direction, pressure e.t.c."
-                  link="https://akinsikuoluwafemi.github.io/Cloud24/"
-                />
+              
               </div>
             </div>
           </div>

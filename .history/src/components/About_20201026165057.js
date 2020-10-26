@@ -34,7 +34,7 @@ const About = () => {
                         <div className="col-12 col-lg-6 ">
                             <h3 className="text-white pb-4 font-weight-thin head--spacing">About Me</h3>
                                         <p className="row pr-5 text-success text--spacing">
-                                        I am currently a freelance developer/Growth Hacker. I also provide tech and consulting services for startups. 
+                                        I am currently a freelance developer, I do jobs for teams and business
                                         </p>
                                 <p className="row pr-5 text-success text--spacing">
                                 I was born in Lagos, Nigeria and I am from Ondo State. I am graced with two other siblings, who are doing excellently well.
