@@ -3,7 +3,6 @@ import oakhomesng from '../images/sdgimage.png';
 import Card from './Card';
 import biking from '../images/biking.jpg';
 import help from "../images/help.png";
-import mtn from "../images/mtnpic.jpeg";
 
 import resume from '../images/newresume.png';
 import udacitynew from '../images/udacitynew.png';
@@ -26,18 +25,18 @@ const Portfolio = () =>{
                   image={help}
                   header="Peeps"
                   description="React, Rails, web sockets(actioncable), activestorage, heroku"
-                  about="This is a fullstack application that allows peepsons with needs make requisition, other peepsons can also volunteer to meet their need after the request has been created. On volunteering you create a message flow between you and the peepson which allows you to send them a direct message in real time."
-                  link="https://peeps-frontend.vercel.app"
+                  about="This is a fullstack application that allows users that have needs make requisition so other users can volunteer to meet their need. On volunteering you create a message flow between you and the user which allows you to send them a direct message in real time."
+                  link="https://boulder-bike-race.netlify.app/"
                 />
               </div>
 
               <div className="col-12  col-lg-6  ">
                 <Card
-                  image={mtn}
-                  header="Mtn Clone"
-                  description="React and unsplash API"
-                  about="This is a front end application, cloning the MTN supplier page, I also made use of unsplash API to get the search field up and running"
-                  link="https://mtnclone.netlify.app"
+                  image={biking}
+                  header="Boulder Bike Tour"
+                  description="React and Rails Application"
+                  about="This is a fullstack application that lets users know when a prestegious cycling event will take place in colorado, I used rails on the backend and react on the front end, this app allows users see the exact location of riders on google map in real time."
+                  link="https://boulder-bike-race.netlify.app/"
                 />
               </div>
 
@@ -56,7 +55,7 @@ const Portfolio = () =>{
                   image={oakhomesng}
                   header="BuildForSDG Projects"
                   description="React Project"
-                  about="This is a Website I built in React, it hosted the BuildForSDG Cohort One project."
+                  about="This is a Website I built in React, it hosted the buildforsdg cohort one project."
                   link="https://sdgbuild.netlify.app/"
                 />
               </div>
@@ -94,7 +93,7 @@ const Portfolio = () =>{
                 <Card
                   image="https://images.ctfassets.net/clveum0ikkbk/3PAwD9ujeEEQ4sy22W0KEG/1d0f26299dd1646a74824cbe9cad460a/weather-app.jpg?w=1024&h=576&q=100"
                   header="Cloud 24"
-                  description="Vanilla Javascript Web Application, Weather API"
+                  description="Javascript Web Application"
                   about="Cloud 24 allows users to extract weather informations, like temperature, wind-direction, pressure e.t.c."
                   link="https://akinsikuoluwafemi.github.io/Cloud24/"
                 />

@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import p1 from '../images/biking.jpg';
 import p2 from '../images/move.jpg';
 import p3 from '../images/mtnpic.jpeg';
-import p4 from '../images/help.png';
+import p4 from '../images/learning.jpg';
 import p5 from '../images/sdgimage.png';
 
 
@@ -13,7 +13,7 @@ class Portfolioscrollinhome extends Component {
     render() { 
         return (
             <div className="items">
-                <a rel="noopener noreferrer" target="_blank" href="https://peeps-frontend.vercel.app"> <img className="item item4" src={p4} alt="portfolio" /></a>
+                <a rel="noopener noreferrer" target="_blank" href="https://peeps-frontend.vercel.app/login"> <img className="item item4" src={p4} alt="portfolio" /></a>
                 <a rel="noopener noreferrer" target="_blank" href="https://mtnclone.netlify.app/"> <img className="item item3" src={p3} alt="portfolio"  /></a>
 
                 <a rel="noopener noreferrer" target="_blank" href="https://sdgbuild.netlify.app/"><img className="item item5" src={p5} alt="sdg"  /></a>

@@ -56,7 +56,7 @@ const Portfolio = () =>{
                   image={oakhomesng}
                   header="BuildForSDG Projects"
                   description="React Project"
-                  about="This is a Website I built in React, it hosted the BuildForSDG Cohort One project."
+                  about="This is a Website I built in React, it hosted the buildforsdg cohort one project."
                   link="https://sdgbuild.netlify.app/"
                 />
               </div>

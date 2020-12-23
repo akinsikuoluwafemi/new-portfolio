@@ -18,7 +18,7 @@ const AboutInHome = () => {
                         <hr className="gb " />
                         <p className="row pt-4 pl-2 text-white text--spacing" >
                             When I am not coding I do a lot of other awesome things as well, like spending time on a VR headset and forgeting my self there. I also do things like,
-                             
+                             In building JavaScript applications, I'm equipped with just the right tools, and can absolutely function independently of them to deliver fast, resilient solutions optimized for scale — performance and scalabilty are priorities on my radar.
                         </p>
                         <ul className="text--spacing" >
                             <li className="listcircle"><span className="text-white">Dancing Salsa.</span></li>

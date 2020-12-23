@@ -8,7 +8,8 @@ const AboutInHome = () => {
                     <div className="col-12 col-lg-6 ">
                         <h3 className="text-white pb-4 font-weight-thin head--spacing" >About Me</h3>
                         <p className="row pr-5 text-success text--spacing" >
-                             I like to craft solid and scalable software engineering products with great user experiences.
+                            I am a Full-stack software engineer. My dream is to harness the power of technology in the medical space, in construction, and in food, building products that touch lives.
+                             
                         </p>
                         <p className="row pr-5 text-success text--spacing">
                             {/* write something */}
@@ -18,7 +19,6 @@ const AboutInHome = () => {
                         <hr className="gb " />
                         <p className="row pt-4 pl-2 text-white text--spacing" >
                             When I am not coding I do a lot of other awesome things as well, like spending time on a VR headset and forgeting my self there. I also do things like,
-                             
                         </p>
                         <ul className="text--spacing" >
                             <li className="listcircle"><span className="text-white">Dancing Salsa.</span></li>

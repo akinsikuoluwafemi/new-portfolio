@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import p1 from '../images/biking.jpg';
 import p2 from '../images/move.jpg';
 import p3 from '../images/mtnpic.jpeg';
-import p4 from '../images/help.png';
+import p4 from '../images/learning.jpg';
 import p5 from '../images/sdgimage.png';
 
 
