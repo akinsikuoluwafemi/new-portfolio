@@ -5,7 +5,7 @@ import biking from '../images/biking.jpg';
 import help from "../images/help.png";
 import mtn from "../images/mtnpic.jpeg";
 
-// import resume from '../images/newresume.png';
+import resume from '../images/newresume.png';
 import udacitynew from '../images/udacitynew.png';
 import move from '../images/move.jpg';
 import Footer from './Footer';

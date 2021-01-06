@@ -24,7 +24,7 @@ const Placeofworkinhome = () => {
 
               <div className="d-flex justify-content-between ">
                 <div className="text-white ">
-                  <p>Andela <small>(contract based)</small></p>
+                  <p>Andela <small></small>(contract based)</p>
                   <p className="workdate">3.2019 - 10.2020</p>
                 </div>
                 <p className="text-white">Programme Assistant</p>

@@ -30,7 +30,7 @@ const AboutInHome = () => {
                         </p>
                     </div>
                     <div className="m-auto py-4">
-                        <a href="https://docs.google.com/document/d/1ZqR4fFVhzFRJf3d5Cn4zojvc-NT5FeNWHxwru8FVp2g/edit?usp=sharing" target="_blank" className="btn-sm button-anim resume " rel="noopener noreferrer"><span>Resume</span></a>
+                        <a href="https://femiakinsikusresume.netlify.com" target="_blank" className="btn-sm button-anim resume " rel="noopener noreferrer"><span>Resume</span></a>
                     </div>
 
 
