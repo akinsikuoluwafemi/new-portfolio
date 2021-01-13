@@ -8,7 +8,7 @@ import graphqlimg from '../images/graphql-icon.svg';
 // import invision from '../images/invision.svg';
 import adobexd from '../images/adobe-xd-1.svg';
 import figma from '../images/figma-1.svg';
-// import sketch from '../images/sketch-2.svg';
+import sketch from '../images/sketch-2.svg';
 
 
 const Aboutmetabs = () => {
