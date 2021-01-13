@@ -51,7 +51,7 @@ const About = () => {
                                 <p className="tools__name">+2348103031691</p>
                             </div>
                             <div className="m-auto py-4">
-                                <a href="https://femiakinsikusresume.netlify.app/" target="_blank" rel="noopener noreferrer" className="btn-sm button-anim resume "><span>Resume</span></a>
+                                            <a href="" target="_blank" rel="noopener noreferrer" className="btn-sm button-anim resume "><span>Resume</span></a>
                             </div>
 
                     </div>
