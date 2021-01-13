@@ -4,7 +4,7 @@ import reactimg from '../images/react-1.svg';
 import sql from '../images/sql.svg';
 import cssimg from '../images/css-3.svg';
 import ror from '../images/ruby.svg';
-import pythonimg from '../images/python.svg';
+import graphqlimg from '../images/graphql-icon.svg';
 import invision from '../images/invision.svg';
 import adobexd from '../images/adobe-xd-1.svg';
 import figma from '../images/figma-1.svg';
@@ -50,15 +50,15 @@ const Aboutmetabs = () => {
                             <ul className="list__item ">
                                 <div className="d-flex  mb-3">
                                     <img src={cssimg} className="tools-logo" alt="css"/>
-                                    <p className="ml-3">CSS</p>
+                                    <p className="ml-3">CSS3</p>
                                 </div>
                                 <div className="d-flex  mb-3">
                                     <img src={ror} style={{background: 'white'}} className="tools-logo" alt=""/>
                                     <p className="ml-3">Ruby</p>
                                 </div>
                                 <div className="d-flex ">
-                                    <img src={pythonimg} className="tools-logo" alt="python"/>
-                                    <p className="ml-3">Python</p>
+                                    <img src={graphqlimg} className="tools-logo" alt="graphql"/>
+                                    <p className="ml-3">GraphQL</p>
                                 </div>
 
 
@@ -71,9 +71,13 @@ const Aboutmetabs = () => {
                         <div className="d-flex ">
                             <ul className="list__item">
                                 
-                                <div className="d-flex  mb-3">
+                                {/* <div className="d-flex  mb-3">
                                     <img src={invision} className="tools-logo" alt="invision"/>
                                     <p className="ml-3">INVISION</p>
+                                </div> */}
+                                <div className="d-flex mb-3">
+                                    <img src={figma} className="tools-logo" alt="figma"/>
+                                    <p className="ml-3">FIGMA</p>
                                 </div>
                                 <div className="d-flex ">
                                     <img src={adobexd} className="tools-logo" alt="adobe" />
@@ -81,7 +85,7 @@ const Aboutmetabs = () => {
                                 </div>
 
                             </ul>
-                            <ul className="list__item ">
+                            {/* <ul className="list__item ">
                                 <div className="d-flex mb-3">
                                     <img src={figma} className="tools-logo" alt="figma"/>
                                     <p className="ml-3">FIGMA</p>
@@ -93,7 +97,7 @@ const Aboutmetabs = () => {
                                 
 
 
-                            </ul>
+                            </ul> */}
                         </div>
                     </div>
                 
@@ -103,8 +107,7 @@ const Aboutmetabs = () => {
                         <p className="tools__name">#GADS - Programme Assistant - <span className="tools__description">Google, Andela & Pluralsight </span></p>
                         <p className="tools__description" >June 2020 - Dec 2020</p>
                     </div>
-                    
-                    {/* <div>
+                    <div>
                         <p className="tools__name">#BuildforSDG Challenge - Programme Assistant - <span className="tools__description">Facebook & Andela </span></p>
                         <p className="tools__description" >April 2020 - June 2020</p>
                     </div>
@@ -115,7 +118,7 @@ const Aboutmetabs = () => {
                     <div>
                         <p className="tools__name">Devc Training With Andela Mentor - <span className="tools__description">Facebook & Andela </span></p>
                         <p className="tools__description">2019 - Aug</p>
-                    </div> */}
+                    </div>
 
 
                 </div>

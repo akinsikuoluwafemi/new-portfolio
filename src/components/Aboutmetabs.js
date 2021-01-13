@@ -71,13 +71,17 @@ const Aboutmetabs = () => {
                         <div className="d-flex ">
                             <ul className="list__item">
                                 
-                                <div className="d-flex  mb-3">
+                                {/* <div className="d-flex  mb-3">
                                     <img src={invision} className="tools-logo" alt="invision"/>
                                     <p className="ml-3">INVISION</p>
-                                </div>
+                                </div> */}
+                                {/* <div className="d-flex mb-3">
+                                    <img src={figma} className="tools-logo" alt="figma"/>
+                                    <p className="ml-3">FIGMA</p>
+                                </div> */}
                                 <div className="d-flex ">
                                     <img src={adobexd} className="tools-logo" alt="adobe" />
-                                    <p className="ml-3">ADOBEXD</p>
+                                    <p className="ml-3">ADOBE-XD</p>
                                 </div>
 
                             </ul>
@@ -86,10 +90,10 @@ const Aboutmetabs = () => {
                                     <img src={figma} className="tools-logo" alt="figma"/>
                                     <p className="ml-3">FIGMA</p>
                                 </div>
-                                <div className="d-flex  mb-3">
+                                {/* <div className="d-flex  mb-3">
                                     <img src={sketch} className="tools-logo" alt="sketch"/>
                                     <p className="ml-3">SKETCH</p>
-                                </div>
+                                </div> */}
                                 
 
 

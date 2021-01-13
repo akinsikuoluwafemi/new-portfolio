@@ -52,7 +52,7 @@ const Placeofworkinhome = () => {
                   <p className="workdate">2.2016 - 2.2017</p>
                 </div>
                 <p className="text-white">Bulk Teller</p>
-              </div> 
+              </div> */}
             </div>
           </div>
         </div>

@@ -23,7 +23,7 @@ class Jumbotron extends Component {
                             </div>
                             <h1 className="text-center jumbo__header jumbo__header--text mt-3 text-white ">Hello I'm Femi,</h1>
 
-                            <h1 className="text-center jumbo__header jumbo__header--text mt-3 text-white ">Full-Stack Developer</h1>
+                            <h1 className="text-center jumbo__header jumbo__header--text mt-3 text-white ">Full-Stack Developer and Designer</h1>
                             
                             <span className="bb text-success">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
                         </div>
