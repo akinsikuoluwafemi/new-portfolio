@@ -37,10 +37,10 @@ const About = () => {
                                         I am an agile minded Software Engineer with a growth Mindset, I am currently a Frontend Engineer at Hazon Holdings. 
                                         </p>
                                 <p className="row pr-5 text-success text--spacing">
-                                I just completed my bachelors level(VI) degree diploma on OpenClassrooms on FullStack Web Development, this scholarship was sponsored by Facebook.
+                                I just completed my bachelors level(VI) degree diploma on OpenClassrooms , this scholarship was sponsored by Facebook.
                         </p>
                         <p className="row pr-5 text-success text--spacing ">
-                            I have solid cross-organizational and cross-cultural experience from the banking sector and the manufacturing sector where I learnt in demand soft skills like collaboration, feedback and communication, which is top in my transferrable skills portfolio.
+                            I have solid cross-organizational and cross-cultural experience from the banking sector and the manufacturing sector, prior to my tech career.
                         </p>             
                             <div>
                                 <span className="tools__description text-white">Email:</span>

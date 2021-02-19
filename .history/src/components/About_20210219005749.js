@@ -34,13 +34,13 @@ const About = () => {
                         <div className="col-12 col-lg-6 ">
                             <h3 className="text-white pb-4 font-weight-thin head--spacing">About Me</h3>
                                         <p className="row pr-5 text-success text--spacing">
-                                        I am an agile minded Software Engineer with a growth Mindset, I am currently a Frontend Engineer at Hazon Holdings. 
+                                        I am currently a Frontend Engineer at Hazon Holdings. 
                                         </p>
                                 <p className="row pr-5 text-success text--spacing">
-                                I just completed my bachelors level(VI) degree diploma on OpenClassrooms on FullStack Web Development, this scholarship was sponsored by Facebook.
+                                hh
                         </p>
                         <p className="row pr-5 text-success text--spacing ">
-                            I have solid cross-organizational and cross-cultural experience from the banking sector and the manufacturing sector where I learnt in demand soft skills like collaboration, feedback and communication, which is top in my transferrable skills portfolio.
+                            I am fueled by my passion to keep learning and improving myself with the skill-set needed to work with any technology, that's why I consider myself, a forever student, eager to master a skill and move on to the next.
                         </p>             
                             <div>
                                 <span className="tools__description text-white">Email:</span>

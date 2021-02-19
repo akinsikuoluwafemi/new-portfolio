@@ -40,7 +40,7 @@ const About = () => {
                                 I just completed my bachelors level(VI) degree diploma on OpenClassrooms on FullStack Web Development, this scholarship was sponsored by Facebook.
                         </p>
                         <p className="row pr-5 text-success text--spacing ">
-                            I have solid cross-organizational and cross-cultural experience from the banking sector and the manufacturing sector where I learnt in demand soft skills like collaboration, feedback and communication, which is top in my transferrable skills portfolio.
+                            I have solid cross-organizational and cross-cultural experience from the banking sector and the manufacturing sector where I learnt soft skills like , prior to my tech career.
                         </p>             
                             <div>
                                 <span className="tools__description text-white">Email:</span>

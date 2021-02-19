@@ -22,8 +22,8 @@ const AboutInHome = () => {
                         </p>
                         <ul className="text--spacing" >
                             <li className="listcircle"><span className="text-white">Dancing Salsa.</span></li>
-                            <li className="listcircle"><span className="text-white">Fantasizing about being an on air personality.</span></li>
-                            <li className="listcircle"><span className="text-white">Reading about Vertical Farming </span></li>
+                            <li className="listcircle"><span className="text-white">fantasizing about being an on air personality.</span></li>
+                            <li className="listcircle"><span className="text-white">Thinking about skiing and sky diving e.t. </span></li>
                         </ul>
                         <p className="row text-white text--spacing" >
                             I am also a very awesome cook too <span role="img" aria-labelledby="smile">😁</span>.

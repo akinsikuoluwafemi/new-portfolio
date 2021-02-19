@@ -16,10 +16,10 @@ const Placeofworkinhome = () => {
 
               <div className="d-flex justify-content-between ">
                 <div className="text-white ">
-                  <p>Hazon Holdings</p>
+                  <p>Self Employed</p>
                   <p className="workdate">Presently Work there</p>
                 </div>
-                <p className="text-white">Frontend Engineer</p>
+                <p className="text-white">Freelance Developer/Growth Hacker</p>
               </div>
 
               <div className="d-flex justify-content-between ">
