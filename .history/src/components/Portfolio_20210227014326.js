@@ -7,11 +7,8 @@ import mtn from "../images/mtnpic.jpeg";
 
 // import resume from '../images/newresume.png';
 import udacitynew from '../images/udacitynew.png';
-import cart from "../images/shopping-cart.jpg";
-
 import move from '../images/move.jpg';
 import Footer from './Footer';
-
 
 
 const Portfolio = () =>{
@@ -34,13 +31,13 @@ const Portfolio = () =>{
                 />
               </div>
 
-              <div className="col-12  col-lg-6">
+              <div className="col-12  col-lg-6  ">
                 <Card
-                  image={cart}
-                  header="Shopies"
-                  description="A shopping Cart app"
-                  about="This is a frontend shopping cart app built with React and Redux, I implemented paypal payment checkout as well. I used ES6-ES10 javascript features, you can add to cart, increase and decrease an Item in the cart, You can view a single Item and also add it to the cart on the fly."
-                  link="https://shoping-store.netlify.app/"
+                  image={mtn}
+                  header="Mtn Clone"
+                  description="React and unsplash API"
+                  about="This is a front end application, cloning the MTN supplier page, I also made use of unsplash API to get the search field up and running"
+                  link="https://mtnclone.netlify.app"
                 />
               </div>
 
@@ -93,13 +90,13 @@ const Portfolio = () =>{
                 />
               </div>
 
-              <div className="col-12  col-lg-6  ">
+              <div className="col-12  col-lg-6">
                 <Card
-                  image={mtn}
-                  header="Mtn Clone"
-                  description="React and unsplash API"
-                  about="This is a front end application, cloning the MTN supplier page, I also made use of unsplash API to get the search field up and running"
-                  link="https://mtnclone.netlify.app"
+                  image="https://images.ctfassets.net/clveum0ikkbk/3PAwD9ujeEEQ4sy22W0KEG/1d0f26299dd1646a74824cbe9cad460a/weather-app.jpg?w=1024&h=576&q=100"
+                  header="Shopies"
+                  description="A shopping Cart app"
+                  about="This is a frontend shopping cart app built with React and Redux, I implemented paypal payment checkout as well. I "
+                  link="https://akinsikuoluwafemi.github.io/Cloud24/"
                 />
               </div>
             </div>

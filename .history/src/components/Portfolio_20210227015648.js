@@ -7,7 +7,7 @@ import mtn from "../images/mtnpic.jpeg";
 
 // import resume from '../images/newresume.png';
 import udacitynew from '../images/udacitynew.png';
-import cart from "../images/shopping-cart.jpg";
+import cart from "../images/shoping-cart.jpg";
 
 import move from '../images/move.jpg';
 import Footer from './Footer';
