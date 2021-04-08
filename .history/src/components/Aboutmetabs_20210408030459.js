@@ -10,8 +10,6 @@ import adobexd from '../images/adobe-xd-1.svg';
 import figma from '../images/figma-1.svg';
 // import sketch from '../images/sketch-2.svg';
 import gatsby from '../images/gatsby.svg';
-import nextjs from '../images/Nextjs.svg';
-import './tabs.css';
 
 const Aboutmetabs = () => {
     return (
@@ -62,8 +60,8 @@ const Aboutmetabs = () => {
 					<div className="pt-3">
 						<p className="tools__name">WebApp Development</p>
 						<p className="tools__description">This are some of the tools & concepts I use when I work.</p>
-						
-                        <div className="skill-wrapper">
+						<div className="d-flex ">
+							<ul className="list__item">
 								<div className="d-flex mb-3">
 									<img src={htmlimg} className="tools-logo" alt="html" />
 									<p className="ml-3">HTML5</p>
@@ -76,6 +74,8 @@ const Aboutmetabs = () => {
 									<img src={sql} className="tools-logo" alt="sql" />
 									<p className="ml-3">SQL</p>
 								</div>
+							</ul>
+							<ul className="list__item ">
 								<div className="d-flex  mb-3">
 									<img src={cssimg} className="tools-logo" alt="css" />
 									<p className="ml-3">CSS3</p>
@@ -84,22 +84,20 @@ const Aboutmetabs = () => {
 									<img src={ror} style={{ background: 'white' }} className="tools-logo" alt="" />
 									<p className="ml-3">Ruby</p>
 								</div>
-
 								<div className="d-flex ">
 									<img src={graphqlimg} className="tools-logo" alt="graphql" />
 									<p className="ml-3">GraphQL</p>
-                                </div>
-                                
+								</div>
+								<div className="d-flex ">
+									<img src={graphqlimg} className="tools-logo" alt="graphql" />
+									<p className="ml-3">GraphQL</p>
+								</div>
 								<div className="d-flex  mb-3">
 									<img src={gatsby} style={{ background: 'white' }} className="tools-logo" alt="" />
 									<p className="ml-3">Gatsby js</p>
 								</div>
-								<div className="d-flex ">
-									<img src={nextjs} className="tools-logo" alt="graphql" />
-									<p className="ml-3">Next js</p>
-								</div>
-                        </div>
-                        
+							</ul>
+						</div>
 					</div>
 					<div>
 						<p className="tools__name">

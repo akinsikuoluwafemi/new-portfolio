@@ -64,7 +64,7 @@ const Aboutmetabs = () => {
 						<p className="tools__description">This are some of the tools & concepts I use when I work.</p>
 						
                         <div className="skill-wrapper">
-								<div className="d-flex mb-3">
+								<div className=" mb-3">
 									<img src={htmlimg} className="tools-logo" alt="html" />
 									<p className="ml-3">HTML5</p>
 								</div>

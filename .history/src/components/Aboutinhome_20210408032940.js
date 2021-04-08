@@ -7,7 +7,8 @@ const AboutInHome = () => {
                 <div className="row">
                     <div className="col-12 col-lg-6 ">
                         <h3 className="text-white pb-4 font-weight-thin head--spacing" >About Me</h3>
-                        <p className="row pr-5 text-success text--spacing" >
+                        <p className="row pr-5 text-success text--spacing">
+                            Facebook just sponsored my OpenClassrooms full stack Bachelors level diploma and 
                              I like to craft solid and scalable software engineering products with great user experiences.
                         </p>
                         <p className="row pr-5 text-success text--spacing">

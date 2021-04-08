@@ -63,7 +63,8 @@ const Aboutmetabs = () => {
 						<p className="tools__name">WebApp Development</p>
 						<p className="tools__description">This are some of the tools & concepts I use when I work.</p>
 						
-                        <div className="skill-wrapper">
+                        <div className="skill-wrapper ">
+							<ul className="list__item">
 								<div className="d-flex mb-3">
 									<img src={htmlimg} className="tools-logo" alt="html" />
 									<p className="ml-3">HTML5</p>
@@ -98,6 +99,7 @@ const Aboutmetabs = () => {
 									<img src={nextjs} className="tools-logo" alt="graphql" />
 									<p className="ml-3">Next js</p>
 								</div>
+							</ul>
                         </div>
                         
 					</div>

@@ -7,7 +7,8 @@ const AboutInHome = () => {
                 <div className="row">
                     <div className="col-12 col-lg-6 ">
                         <h3 className="text-white pb-4 font-weight-thin head--spacing" >About Me</h3>
-                        <p className="row pr-5 text-success text--spacing" >
+                        <p className="row pr-5 text-success text--spacing">
+                            Facebook just sponsored my OpenClassrooms Bachelors 
                              I like to craft solid and scalable software engineering products with great user experiences.
                         </p>
                         <p className="row pr-5 text-success text--spacing">
@@ -22,7 +23,7 @@ const AboutInHome = () => {
                         </p>
                         <ul className="text--spacing" >
                             <li className="listcircle"><span className="text-white">Dancing Salsa.</span></li>
-                            <li className="listcircle"><span className="text-white">fantasizing about being an on air personality.</span></li>
+                            <li className="listcircle"><span className="text-white">Fantasizing about being an on air personality.</span></li>
                             <li className="listcircle"><span className="text-white">Reading about Vertical Farming </span></li>
                         </ul>
                         <p className="row text-white text--spacing" >
