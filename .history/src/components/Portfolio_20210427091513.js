@@ -4,12 +4,12 @@ import Card from './Card';
 import biking from '../images/biking.jpg';
 import help from "../images/help.png";
 import furrow from '../images/furrow.png';
-// import { Link} from 'react-router-dom';
+import { Link} from 'react-router-dom';
 
 import mtn from "../images/mtnpic.jpeg";
 
 // import resume from '../images/newresume.png';
-// import udacitynew from '../images/udacitynew.png';
+import udacitynew from '../images/udacitynew.png';
 import cart from "../images/shopping-cart.jpg";
 
 import move from '../images/move.jpg';

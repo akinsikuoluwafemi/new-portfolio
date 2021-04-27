@@ -4,12 +4,12 @@ import Card from './Card';
 import biking from '../images/biking.jpg';
 import help from "../images/help.png";
 import furrow from '../images/furrow.png';
-// import { Link} from 'react-router-dom';
+import { Link} from 'react-router-dom';
 
 import mtn from "../images/mtnpic.jpeg";
 
 // import resume from '../images/newresume.png';
-// import udacitynew from '../images/udacitynew.png';
+import udacitynew from '../images/udacitynew.png';
 import cart from "../images/shopping-cart.jpg";
 
 import move from '../images/move.jpg';
@@ -39,7 +39,7 @@ const Portfolio = () =>{
 								image={furrow}
 								header="Furrow.Studio"
 								description="Gatsby js, React 16 hooks, Canvas, Framer Motion, Gsap, Styled Components"
-								about={`This is a clone of the furrow.studio website, made with gatsby js, I used custom cursors, canvas api, framer motion for animations and lots of new react 16 new features like useReducer etc, it also has a dark and white theme.`}
+								about={`This is a clone of the furrow.studio website, made with gatsby js, I used custom cursors, canvas api, framer motion for animations and lots of new react 16 new features like useReducer etc.`}
 								link="https://furrow-studios.vercel.app/"
 							/>
 						</div>

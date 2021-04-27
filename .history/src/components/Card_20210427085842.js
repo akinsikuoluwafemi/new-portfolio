@@ -3,7 +3,7 @@ import { Spring } from 'react-spring/renderprops';
 
 
 
-const Card = ({ image, header, description, about, link }) =>{
+const Card = ({ image, header, description, about, link, furrowwebpage }) =>{
     
 
     return (

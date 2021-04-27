@@ -3,7 +3,7 @@ import { Spring } from 'react-spring/renderprops';
 
 
 
-const Card = ({ image, header, description, about, link }) =>{
+const Card = ({ image, header, description, about, link, furrowwebpage }) =>{
     
 
     return (
@@ -18,6 +18,7 @@ const Card = ({ image, header, description, about, link }) =>{
 						<p className="text-success font-weight-normal">{description}</p>
 						<p className="tools__name">{about}</p>
 
+						<p>{furrowwebpage &&  furrowwebpage }</p>
 					</div>
 				</div>
 			)}

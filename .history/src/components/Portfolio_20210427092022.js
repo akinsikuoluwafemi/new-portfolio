@@ -4,7 +4,7 @@ import Card from './Card';
 import biking from '../images/biking.jpg';
 import help from "../images/help.png";
 import furrow from '../images/furrow.png';
-// import { Link} from 'react-router-dom';
+import { Link} from 'react-router-dom';
 
 import mtn from "../images/mtnpic.jpeg";
 

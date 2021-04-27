@@ -4,12 +4,12 @@ import Card from './Card';
 import biking from '../images/biking.jpg';
 import help from "../images/help.png";
 import furrow from '../images/furrow.png';
-// import { Link} from 'react-router-dom';
+import { Link} from 'react-router-dom';
 
 import mtn from "../images/mtnpic.jpeg";
 
 // import resume from '../images/newresume.png';
-// import udacitynew from '../images/udacitynew.png';
+import udacitynew from '../images/udacitynew.png';
 import cart from "../images/shopping-cart.jpg";
 
 import move from '../images/move.jpg';
@@ -39,7 +39,7 @@ const Portfolio = () =>{
 								image={furrow}
 								header="Furrow.Studio"
 								description="Gatsby js, React 16 hooks, Canvas, Framer Motion, Gsap, Styled Components"
-								about={`This is a clone of the furrow.studio website, made with gatsby js, I used custom cursors, canvas api, framer motion for animations and lots of new react 16 new features like useReducer etc, it also has a dark and white theme.`}
+								about={`This is a clone of the furrow.studio website, made with gatsby js, I used custom cursors, canvas api, framer motion for animations and lots of new react 16 new features like useReducer etc.`}
 								link="https://furrow-studios.vercel.app/"
 							/>
 						</div>
@@ -62,19 +62,12 @@ const Portfolio = () =>{
 						</div>
 
 						<div className="col-12  col-lg-6  ">
-							{/* <Card
+							<Card
 								image={biking}
 								header="Boulder Bike Tour"
 								description="React and Rails Application"
 								about="This is a fullstack application that lets users know when a prestegious cycling event will take place in colorado, I used rails on the backend and react on the front end, this app allows users see the exact location of riders on google map in real time."
 								link="https://boulder-bike-race.netlify.app/"
-							/> */}
-							<Card
-								image={cart}
-								header="Shopies"
-								description="A shopping Cart app"
-								about="This is a frontend shopping cart app built with React and Redux, I implemented paypal payment checkout as well. I used ES6-ES10 javascript features, you can add to cart, increase and decrease an Item in the cart, You can view a single Item and also add it to the cart on the fly."
-								link="https://shoping-store.netlify.app/"
 							/>
 						</div>
 
@@ -82,8 +75,8 @@ const Portfolio = () =>{
 							<Card
 								image={oakhomesng}
 								header="BuildForSDG Projects"
-								description="React Project, useContext, dark and light theme"
-								about="This is a Website I built in React for Andela, it hosted the BuildForSDG Cohort One project."
+								description="React Project"
+								about="This is a Website I built in React, it hosted the BuildForSDG Cohort One project."
 								link="https://sdgbuild.netlify.app/"
 							/>
 						</div>
@@ -108,19 +101,12 @@ const Portfolio = () =>{
                 />
               </div> */}
 						<div className="col-12  col-lg-6   ">
-							{/* <Card
+							<Card
 								image={cart}
 								header="Shopies"
 								description="A shopping Cart app"
 								about="This is a frontend shopping cart app built with React and Redux, I implemented paypal payment checkout as well. I used ES6-ES10 javascript features, you can add to cart, increase and decrease an Item in the cart, You can view a single Item and also add it to the cart on the fly."
 								link="https://shoping-store.netlify.app/"
-							/> */}
-							<Card
-								image={biking}
-								header="Boulder Bike Tour"
-								description="React and Rails Application"
-								about="This is a fullstack application that lets users know when a prestegious cycling event will take place in colorado, I used rails on the backend and react on the front end, this app allows users see the exact location of riders on google map in real time."
-								link="https://boulder-bike-race.netlify.app/"
 							/>
 						</div>
 
