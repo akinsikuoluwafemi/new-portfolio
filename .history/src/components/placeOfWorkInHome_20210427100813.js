@@ -19,7 +19,7 @@ const Placeofworkinhome = () => {
                   <p>Hazon Holdings</p>
                   <p className="workdate">Presently Work there</p>
                 </div>
-                <p className="text-white">Fr</p>
+                <p className="text-white">Frontend Engineer</p>
               </div>
 
               <div className="d-flex justify-content-between ">
@@ -32,27 +32,14 @@ const Placeofworkinhome = () => {
 
              <div className="d-flex justify-content-between ">
                 <div className="text-white ">
-                  <p>Nestle Flowergate</p>
-                  <p className="workdate">3.2018 - 6.2019</p>
+                  <p>Freelancer</p>
+                  <p className="workdate">3.26.2019</p>
                 </div>
                 <p className="text-white">Production Technician</p>
               </div>
 
-              <div className="d-flex justify-content-between ">
-                <div className="text-white ">
-                  <p>Nestle Hq</p>
-                  <p className="workdate">4.2017 - 3.2018</p>
-                </div>
-                <p className="text-white">Technical Assistant</p>
-              </div>
-
-              <div className="d-flex justify-content-between ">
-                <div className="text-white ">
-                  <p>Gt Bank</p>
-                  <p className="workdate">2.2016 - 2.2017</p>
-                </div>
-                <p className="text-white">Bulk Teller</p>
-              </div> 
+              
+              
             </div>
           </div>
         </div>
