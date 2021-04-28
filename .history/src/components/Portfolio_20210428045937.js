@@ -44,7 +44,7 @@ const Portfolio = () =>{
 							/>
 						</div>
 
-						<div className="col-12 col-lg-6">
+						<div className="col-12  col-lg-6">
 							<Card
 								image={help}
 								header="Peeps"

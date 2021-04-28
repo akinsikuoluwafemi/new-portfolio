@@ -39,12 +39,12 @@ const Portfolio = () =>{
 								image={furrow}
 								header="Furrow.Studio"
 								description="Gatsby js, React 16 hooks, Canvas, Framer Motion, Gsap, Styled Components"
-								about={`This is a clone of the furrow.studio website, made with gatsby js, I used custom cursors, canvas api, framer motion for animations, intersection observers, for page scrolling and lots of react hooks new features like useReducer, useContext, useDispatch, Suspense etc, it also has a dark and white theme.`}
+								about={`This is a clone of the furrow.studio website, made with gatsby js, I used custom cursors, canvas api, framer motion for animations, intersection observers, for page scrolling and lots of react hooks new features like useReducer, useContext, useDispatch, Saus etc, it also has a dark and white theme.`}
 								link="https://furrow-studios.vercel.app/"
 							/>
 						</div>
 
-						<div className="col-12 col-lg-6">
+						<div className="col-12  col-lg-6">
 							<Card
 								image={help}
 								header="Peeps"

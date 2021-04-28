@@ -37,8 +37,6 @@ const Placeofworkinhome = () => {
                 </div>
               </div>
 
-              
-              
             </div>
           </div>
         </div>
