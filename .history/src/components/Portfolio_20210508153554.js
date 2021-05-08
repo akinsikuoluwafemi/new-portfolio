@@ -24,7 +24,7 @@ const Portfolio = () =>{
     return (
 		<div>
 			<Helmet>
-				<title>Portfolio | Akinsiku Oluwafemi</title>
+				<title>About | Akinsiku Oluwafemi</title>
 			</Helmet>
 			<div className="bg-root pt-4">
 				<div className="container px-3 py-4 pb-lg-5 py-lg-5">

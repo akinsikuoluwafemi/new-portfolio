@@ -4,7 +4,7 @@ import Footer from './Footer';
 import { Spring } from 'react-spring/renderprops';
 import Aos from 'aos';
 import "aos/dist/aos.css";
-import {Helmet } from 'react-helmet';
+import {} from 'react'
 
 const About = () => {
     
@@ -19,7 +19,7 @@ const About = () => {
     return (
 		<div>
 			<Helmet>
-				<title>About | Akinsiku Oluwafemi</title>
+				<title>Home | Akinsiku Oluwafemi</title>
 			</Helmet>
 
 			<div>

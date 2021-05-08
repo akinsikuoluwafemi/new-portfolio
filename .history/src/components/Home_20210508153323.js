@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import Jumbotron from './Jumbotron';
 import Aboutinhome from './Aboutinhome';
 import Recentworksinportfolio from './recentWorksInPortfolio';
@@ -9,7 +9,9 @@ import './bubbles.css';
 import {Helmet } from 'react-helmet';
 
 const Home = () => {
-   
+    useEffect(() => {
+        
+    }, [])
 
     return (
 		<div>

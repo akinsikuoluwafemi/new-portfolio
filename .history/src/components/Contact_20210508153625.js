@@ -1,13 +1,12 @@
 import React from 'react';
 import Form from './Form';
 import Footer from './Footer';
-import { Helmet } from 'react-helmet';
 
 const Contact = () => {
     return (
 		<div>
 			<Helmet>
-				<title>Contact | Akinsiku Oluwafemi</title>
+				<title>Portfolio | Akinsiku Oluwafemi</title>
 			</Helmet>
 			<div className="bg-root">
 				<Form />

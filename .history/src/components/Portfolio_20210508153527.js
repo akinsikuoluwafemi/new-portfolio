@@ -5,7 +5,6 @@ import biking from '../images/biking.jpg';
 import help from "../images/help.png";
 import furrow from '../images/furrow.png';
 // import { Link} from 'react-router-dom';
-import { Helmet} from 'react-helmet';
 
 import mtn from "../images/mtnpic.jpeg";
 
@@ -23,9 +22,7 @@ import Footer from './Footer';
 const Portfolio = () =>{
     return (
 		<div>
-			<Helmet>
-				<title>Portfolio | Akinsiku Oluwafemi</title>
-			</Helmet>
+			
 			<div className="bg-root pt-4">
 				<div className="container px-3 py-4 pb-lg-5 py-lg-5">
 					<h3 className="text-white pb-4 font-weight-thin head--spacing">Portfolio</h3>

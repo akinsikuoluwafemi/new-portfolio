@@ -5,7 +5,7 @@ import biking from '../images/biking.jpg';
 import help from "../images/help.png";
 import furrow from '../images/furrow.png';
 // import { Link} from 'react-router-dom';
-import { Helmet} from 'react-helmet';
+import {} from 'react'
 
 import mtn from "../images/mtnpic.jpeg";
 
@@ -24,7 +24,7 @@ const Portfolio = () =>{
     return (
 		<div>
 			<Helmet>
-				<title>Portfolio | Akinsiku Oluwafemi</title>
+				<title>About | Akinsiku Oluwafemi</title>
 			</Helmet>
 			<div className="bg-root pt-4">
 				<div className="container px-3 py-4 pb-lg-5 py-lg-5">

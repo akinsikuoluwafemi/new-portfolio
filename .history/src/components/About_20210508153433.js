@@ -19,7 +19,7 @@ const About = () => {
     return (
 		<div>
 			<Helmet>
-				<title>About | Akinsiku Oluwafemi</title>
+				<title> | Akinsiku Oluwafemi</title>
 			</Helmet>
 
 			<div>
