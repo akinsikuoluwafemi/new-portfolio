@@ -4,6 +4,7 @@ import Footer from './Footer';
 import { Spring } from 'react-spring/renderprops';
 import Aos from 'aos';
 import "aos/dist/aos.css";
+import {Helmet } from 'react-helmet';
 
 const About = () => {
     
@@ -17,6 +18,10 @@ const About = () => {
 
     return (
 		<div>
+			<Helmet>
+				<title>About | Akinsiku Oluwafemi</title>
+			</Helmet>
+
 			<div>
 				<div className="bg-root py-5">
 					<div className="container">
@@ -33,12 +38,12 @@ const About = () => {
 											I just completed my bachelors level(VI) degree diploma on OpenClassrooms on
 											FullStack Web Development, this scholarship was sponsored by Facebook.
 										</p>
-										<p className="row pr-5 text-success text--spacing ">
+										{/* <p className="row pr-5 text-success text--spacing ">
 											I have solid cross-organizational and cross-cultural experience from the
 											banking sector and the manufacturing sector where I learnt in demand soft
 											skills like collaboration, feedback and communication, which is top in my
 											transferrable skills portfolio.
-										</p>
+										</p> */}
 										<div>
 											<span className="tools__description text-white">Email:</span>
 											<p className="tools__name">akinsiku.o@yahoo.com | akinsiku13@gmail.com</p>

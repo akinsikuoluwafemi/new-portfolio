@@ -8,8 +8,7 @@ const AboutInHome = () => {
                     <div className="col-12 col-lg-6 ">
                         <h3 className="text-white pb-4 font-weight-thin head--spacing" >About Me</h3>
                         <p className="row pr-5 text-success text--spacing">
-                             I like to craft solid and scalable software engineering products with great user experiences.
-                        </p>
+                            Diligent software engineer with 4+ years experience in commercial application development. In past roles I have architected industry level enterprise and have worked on products centering around marketplaces, healthcare and gaming.  </p>
                         <p className="row pr-5 text-success text--spacing">
                             {/* write something */}
                         </p>
@@ -30,7 +29,7 @@ const AboutInHome = () => {
                         </p>
                     </div>
                     <div className="m-auto py-4">
-                        <a href="https://femiakinsikusresume.netlify.app/" target="_blank" className="btn-sm button-anim resume " rel="noopener noreferrer"><span>Resume</span></a>
+                        <a href="https://bit.ly/3dWSQKh" target="_blank" className="btn-sm button-anim resume " rel="noopener noreferrer"><span>Resume</span></a>
                     </div>
 
 
