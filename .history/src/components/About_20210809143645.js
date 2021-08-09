@@ -31,7 +31,7 @@ const About = () => {
 									<div className="col-12 col-lg-6 ">
 										<h3 className="text-white pb-4 font-weight-thin head--spacing">About Me</h3>
 										<p className="row pr-5 text-success text--spacing">
-											I am an agile minded Software Engineer with a growth Mindset, I am great at communication and also love giving and receiving feedback to/from the people I work with.
+											I am an agile minded Software Engineer with a growth Mindset, I am great at communication and also love giving and receiving fee.
 										</p>
 										<p className="row pr-5 text-success text--spacing">
 											I just completed my bachelors level(VI) degree diploma on OpenClassrooms on

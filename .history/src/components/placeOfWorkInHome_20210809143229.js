@@ -14,10 +14,12 @@ const Placeofworkinhome = () => {
             <div className="col-12 col-lg-6">
               <hr className="gb " />
 
+              
+
               <div className="d-flex justify-content-between ">
                 <div className="text-white ">
                   <p>Hazon Holdings</p>
-                  <p className="workdate">Presently Work there</p>
+                  <p className="workdate">2.2021 - 6.2021</p>
                 </div>
                 <p className="text-white">Frontend Engineer</p>
               </div>
@@ -32,14 +34,11 @@ const Placeofworkinhome = () => {
 
              <div className="d-flex justify-content-between ">
                 <div className="text-white ">
-                  <p>Nestle Flowergat</p>
-                  <p className="workdate">3.2018 - 6.2019</p>
+                  <p>Freelancer</p>
+                  <p className="workdate">before 2019</p>
                 </div>
-                <p className="text-white">Production Technician</p>
               </div>
 
-              
-              
             </div>
           </div>
         </div>
