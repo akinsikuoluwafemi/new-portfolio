@@ -37,7 +37,7 @@ const Portfolio = () =>{
 							<Card
 								image={pantry}
 								header="Pantry App"
-								description="React js (PWA), Redux, Jest, Unsplash Api, Edamam API.(catered for mobile devices)"
+								description="React js (PWA, Redux, Jest, Unsplash Api, Edamam API."
 								about="Pantry App is a project I built with my PM and Product Designer in Canada, its focused on helping users reduce food waste. It allows users keep stock of what they have left in their pantry, it also shows users recipees catered to their pantry, so they can have ideas on what to make with their pantry items so it doesn't get wasted."
 								link="https://www.mypantryapp.me/"
 							/>

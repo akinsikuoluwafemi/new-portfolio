@@ -15,7 +15,7 @@ class Portfolioscrollinhome extends Component {
     render() { 
         return (
             <div className="items">
-                <a rel="noopener noreferrer" target="_blank" href="http://mypantryapp.me/"> <img className="item item4" src={p6} alt="Pantry-App" /></a>
+                <a rel="noopener noreferrer" target="_blank" href="http://mypantryapp.me/"> <img className="item item4" src={p4} alt="Pantry-App" /></a>
 
                 <a rel="noopener noreferrer" target="_blank" href="https://peeps-frontend.vercel.app"> <img className="item item4" src={p4} alt="portfolio" /></a>
                 <a rel="noopener noreferrer" target="_blank" href="https://furrow-studios.vercel.app/"> <img className="item item3" src={p3} alt="portfolio"  /></a>
