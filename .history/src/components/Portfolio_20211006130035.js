@@ -1,18 +1,18 @@
 import React from 'react';
 import oakhomesng from '../images/sdgimage.png';
 import Card from './Card';
+import biking from '../images/biking.jpg';
 import help from "../images/help.png";
 import furrow from '../images/furrow.png';
-import { Helmet } from 'react-helmet';
-
+// import { Link} from 'react-router-dom';
+import { Helmet} from 'react-helmet';
 
 import mtn from "../images/mtnpic.jpeg";
 
 // import resume from '../images/newresume.png';
 // import udacitynew from '../images/udacitynew.png';
+import cart from "../images/shopping-cart.jpg";
 import pantry from '../images/pantry.jpeg';
-import nikaShop from "../images/nika-shop.png";
-
 
 
 import move from '../images/move.jpg';
@@ -37,11 +37,18 @@ const Portfolio = () =>{
             <div className="row ">
               <div className="col-12  col-lg-6 ">
                 <Card
-                  image={nikaShop}
-                  header="Nika Clothing Store"
-                  description="A shopping Cart app"
-                  about="This is a fullstack shopping cart app built with React, Redux, firebase, Heroku, Google Auth, I implemented stripe payment checkout and also created a node server to handle credit card stripe payment on the backend. Every possible thing you can do on an e-commerce app is possible here as well."
-                  link="https://shoping-store.netlify.app/"
+                  image={pantry}
+                  header="Pantry App"
+                  description="React js (PWA), Redux, Jest, Unsplash Api, Edamam API.(catered for mobile devices)"
+                  about="Pantry App is a project I built with my PM and Product Designer in Canada, its focused on helping users reduce food waste. It allows users keep stock of what they have left in their pantry, it also shows users recipees catered to their pantry, so they can have ideas on what to make with their pantry items so it doesn't get wasted."
+                  link="https://www.mypantryapp.me/"
+                />
+                <Card
+                  image={pantry}
+                  header="Pantry App"
+                  description="React js (PWA), Redux, Jest, Unsplash Api, Edamam API.(catered for mobile devices)"
+                  about="Pantry App is a project I built with my PM and Product Designer in Canada, its focused on helping users reduce food waste. It allows users keep stock of what they have left in their pantry, it also shows users recipees catered to their pantry, so they can have ideas on what to make with their pantry items so it doesn't get wasted."
+                  link="https://www.mypantryapp.me/"
                 />
               </div>
               <div className="col-12  col-lg-6  ">
@@ -87,11 +94,11 @@ const Portfolio = () =>{
 								link="https://boulder-bike-race.netlify.app/"
 							/> */}
                 <Card
-                  image={pantry}
-                  header="Pantry App"
-                  description="React js (PWA), Redux, Jest, Unsplash Api, Edamam API.(catered for mobile devices)"
-                  about="Pantry App is a project I built with my PM and Product Designer in Canada, its focused on helping users reduce food waste. It allows users keep stock of what they have left in their pantry, it also shows users recipees catered to their pantry, so they can have ideas on what to make with their pantry items so it doesn't get wasted."
-                  link="https://www.mypantryapp.me/"
+                  image={cart}
+                  header="Shopies"
+                  description="A shopping Cart app"
+                  about="This is a frontend shopping cart app built with React and Redux, I implemented paypal payment checkout as well. I used ES6-ES10 javascript features, you can add to cart, increase and decrease an Item in the cart, You can view a single Item and also add it to the cart on the fly."
+                  link="https://shoping-store.netlify.app/"
                 />
               </div>
 

@@ -51,7 +51,7 @@ const AboutInHome = () => {
             </div>
             <div className="m-auto py-4">
               <a
-                href="https://www.canva.com/design/DAEmFVwoQtQ/8Qkm-tLvj7ovx5h2ijN9DQ/view?utm_content=DAEmFVwoQtQ&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton"
+                href="https://www.canva.com/design/DAEmFVwoQtQ/share/preview?token=jWQCHfuZkcXGpOfG-OxTPA&role=EDITOR&utm_content=DAEmFVwoQtQ&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton"
                 target="_blank"
                 className="btn-sm button-anim resume "
                 rel="noopener noreferrer"

@@ -10,6 +10,7 @@ import mtn from "../images/mtnpic.jpeg";
 
 // import resume from '../images/newresume.png';
 // import udacitynew from '../images/udacitynew.png';
+import cart from "../images/shopping-cart.jpg";
 import pantry from '../images/pantry.jpeg';
 import nikaShop from "../images/nika-shop.png";
 

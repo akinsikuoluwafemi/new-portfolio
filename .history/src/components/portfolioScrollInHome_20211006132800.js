@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import p1 from '../images/biking.jpg';
 import p3 from '../images/furrow.png';
 import p4 from '../images/help.png';
 import p5 from '../images/sdgimage.png';

@@ -1,6 +1,7 @@
 import React from 'react';
 import oakhomesng from '../images/sdgimage.png';
 import Card from './Card';
+import biking from '../images/biking.jpg';
 import help from "../images/help.png";
 import furrow from '../images/furrow.png';
 import { Helmet } from 'react-helmet';
@@ -10,6 +11,7 @@ import mtn from "../images/mtnpic.jpeg";
 
 // import resume from '../images/newresume.png';
 // import udacitynew from '../images/udacitynew.png';
+import cart from "../images/shopping-cart.jpg";
 import pantry from '../images/pantry.jpeg';
 import nikaShop from "../images/nika-shop.png";
 
@@ -40,7 +42,7 @@ const Portfolio = () =>{
                   image={nikaShop}
                   header="Nika Clothing Store"
                   description="A shopping Cart app"
-                  about="This is a fullstack shopping cart app built with React, Redux, firebase, Heroku, Google Auth, I implemented stripe payment checkout and also created a node server to handle credit card stripe payment on the backend. Every possible thing you can do on an e-commerce app is possible here as well."
+                  about="This is a fullstack shopping cart app built with React, Redux, firebase, Heroku, Google Auth, I implemented stripe payment checkout and also created a node server to handle credit card stripe payment on the backend. Every ossible thing you can do on an e-commerce app is possible here as well."
                   link="https://shoping-store.netlify.app/"
                 />
               </div>

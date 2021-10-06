@@ -1,6 +1,7 @@
 import React from 'react';
 import oakhomesng from '../images/sdgimage.png';
 import Card from './Card';
+import biking from '../images/biking.jpg';
 import help from "../images/help.png";
 import furrow from '../images/furrow.png';
 import { Helmet } from 'react-helmet';
@@ -10,6 +11,7 @@ import mtn from "../images/mtnpic.jpeg";
 
 // import resume from '../images/newresume.png';
 // import udacitynew from '../images/udacitynew.png';
+import cart from "../images/shopping-cart.jpg";
 import pantry from '../images/pantry.jpeg';
 import nikaShop from "../images/nika-shop.png";
 
