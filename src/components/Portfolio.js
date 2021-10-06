@@ -41,7 +41,7 @@ const Portfolio = () =>{
                   header="Nika Clothing Store"
                   description="A shopping Cart app"
                   about="This is a fullstack shopping cart app built with React, Redux, firebase, Heroku, Google Auth, I implemented stripe payment checkout and also created a node server to handle credit card stripe payment on the backend. Every possible thing you can do on an e-commerce app is possible here as well."
-                  link="https://shoping-store.netlify.app/"
+                  link="https://nika-alpha-clothing.herokuapp.com/"
                 />
               </div>
               <div className="col-12  col-lg-6  ">
