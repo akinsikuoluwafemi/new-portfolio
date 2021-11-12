@@ -444,9 +444,7 @@ li a {
   right: 0;
 }
 
-a:hover {
-  // color: #000;
-}
+
 
 //navtabs
 .nav-tabs {
@@ -590,9 +588,7 @@ ul.list__item {
 }
 
 @media(max-width: 768px){
-  br {
-    // display: none;
-  }
+  
 
   .footer__one {
     text-align: center;
@@ -921,9 +917,7 @@ textarea{
     outline: none!important;
 }
 
-.port {
-  // height: 580px;
-}
+
 a:hover {
   color: $link-hover-green!important;
 }
