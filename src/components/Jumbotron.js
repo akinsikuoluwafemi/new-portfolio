@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import pp from '../images/new-photo.png';
+import pp from '../images/femi.jpeg';
 import { Spring } from 'react-spring/renderprops';
 
 

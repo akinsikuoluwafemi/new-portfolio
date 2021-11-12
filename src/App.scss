@@ -52,8 +52,8 @@ hr {
 
   &__wrapper {
     border-radius: 50%;
-      height: 270px;
     width: 270px;
+    height: 360px;
     margin: 0 auto;
     position: relative;
     border: 5px solid #fff;
@@ -67,8 +67,8 @@ hr {
   }
 
   &__profilepicture {
-    height: 260px;
-    width: 260px;
+    height: 350px;
+    width: 100%;
     background-color: #2A2A57;
     border-radius: 50%;
     margin: 0 auto;
