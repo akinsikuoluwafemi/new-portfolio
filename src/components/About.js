@@ -7,12 +7,12 @@ import "aos/dist/aos.css";
 import {Helmet } from 'react-helmet';
 
 const About = () => {
-    
+
      useEffect(() => {
         Aos.init({
-            
+
             duration: 2500
-        
+
         });
     }, [])
 
@@ -43,9 +43,8 @@ const About = () => {
                         with.
                       </p>
                       <p className="row pr-5 text-success text--spacing">
-                        I just completed my bachelors level(VI) degree diploma
-                        on OpenClassrooms on FullStack Web Development, this
-                        scholarship was sponsored by Facebook.
+                        I have a &nbsp; <a rel="noopener noreferrer" href="http://m.my-newsletter.info/axiom/OC/2021/07/H5CVM3U.pdf" target="_blank">bachelors level(VI) degree diploma</a>
+                        on OpenClassrooms on FullStack Web Development, this scholarship was sponsored by Facebook. I am also a Mentor on <a rel="noopener noreferrer" href="https://openclassrooms.com/en/" target="_blank">OpenClassrooms</a>
                       </p>
                       {/* <p className="row pr-5 text-success text--spacing ">
 											I have solid cross-organizational and cross-cultural experience from the
