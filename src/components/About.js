@@ -9,7 +9,7 @@ import { Helmet } from "react-helmet";
 const About = () => {
   useEffect(() => {
     Aos.init({
-      duration: 2500,
+      duration: 1000,
     });
   }, []);
 
