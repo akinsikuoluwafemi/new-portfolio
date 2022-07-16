@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import pp from "../images/femi.jpeg";
+import pp from "../images/fine-femi.jpeg";
 import { Spring } from "react-spring/renderprops";
 
 class Jumbotron extends Component {
