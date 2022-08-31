@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import Crowdcoins from "../images/crowdcoins.png";
+import VideoChat from "../images/video-chat.png";
+
 import p4 from "../images/help.png";
 import p5 from "../images/sdgimage.png";
 import NikaShop from "../images/nika-shop.png";
@@ -12,15 +14,17 @@ class Portfolioscrollinhome extends Component {
         <a
           rel="noopener noreferrer"
           target="_blank"
-          href="https://kickstarter-clone.vercel.app/"
+          href="https://chat-call.netlify.app/"
         >
           {" "}
           <img
             className="item item3"
-            src={Crowdcoins}
-            alt="Blockchain Application"
+            src={VideoChat}
+            alt="Video Call Application"
           />
         </a>
+        {/*  */}
+
         <a
           rel="noopener noreferrer"
           target="_blank"
@@ -41,6 +45,18 @@ class Portfolioscrollinhome extends Component {
         >
           {" "}
           <img className="item item4" src={NikaShop} alt="Nika-clothing" />
+        </a>
+        <a
+          rel="noopener noreferrer"
+          target="_blank"
+          href="https://kickstarter-clone.vercel.app/"
+        >
+          {" "}
+          <img
+            className="item item3"
+            src={Crowdcoins}
+            alt="Blockchain Application"
+          />
         </a>
 
         <a
