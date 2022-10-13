@@ -3,13 +3,16 @@ import oakhomesng from "../images/sdgimage.png";
 import Card from "./Card";
 import help from "../images/help.png";
 import furrow from "../images/furrow.png";
+import Wibe from "../images/wibe.png";
+
 import { Helmet } from "react-helmet";
 
-import Crowdcoins from "../images/crowdcoins.png";
+// import Crowdcoins from "../images/crowdcoins.png";
 import VideoChat from "../images/video-chat.png";
 
 import Waveroom from "../images/waveroom.png";
-import nikaShop from "../images/nika-shop.png";
+// import nikaShop from "../images/nika-shop.png";
+import pantry from "../images/pantry.jpeg";
 
 import move from "../images/move.jpg";
 import Footer from "./Footer";
@@ -29,11 +32,11 @@ const Portfolio = () => {
           <div className="row ">
             <div className="col-12  col-lg-6  ">
               <Card
-                image={VideoChat}
-                header="Skype Clone"
-                description="A clone of the popular Skype application, I used React, Socket.io, Simple Peer, WEB-RTC API, and a lot of other technologies to build this application."
-                about="This is an App that allows you place a call to your friends using web rtc technology and web sockets, when you send the link of the app to your friends, put in your name, copy your call-id, then send it to your friends, after your friend picks the call, you will see their video appear, your friend can also choose to decline and leave the call."
-                link="https://chat-call.netlify.app/"
+                image={Wibe}
+                header="Wibe Collections"
+                description="React latest hooks, Framer Motion, Gsap, Styled Components"
+                about={`This a website that houses, amazing clothing collections, I used gsap scroll trigger, framer motion, styled components, react latest hooks, and a lot of other technologies to build this website.`}
+                link="https://wibe-collection.netlify.app/"
               />
             </div>
             <div className="col-12  col-lg-6  ">
@@ -53,12 +56,19 @@ const Portfolio = () => {
 								about="This is a fullstack application that lets users know when a prestegious cycling event will take place in colorado, I used rails on the backend and react on the front end, this app allows users see the exact location of riders on google map in real time."
 								link="https://boulder-bike-race.netlify.app/"
 							/> */}
-              <Card
+              {/* <Card
                 image={Crowdcoins}
                 header="Crowdcoins"
                 description="Next js and Solidity Application with Metamask wallet, truffle, ganache, web3, mocha and more.."
                 about="CrowdCoins is an app that dummies kick-starter, it allows users to create a campaign and raise funds for the campaign, it also allows users to donate to the campaign and get rewarded for their contribution. I wrote Smart contract using solidity and deployed the contract on the ethereum blockchain. I used next js to build the frontend."
                 link="https://kickstarter-clone.vercel.app/"
+              /> */}
+              <Card
+                image={pantry}
+                header="Pantry App"
+                description="React js, Redux, Jest, Unsplash Api, Edamam API."
+                about="Pantry App is a project I built alongside with my PM and Product Designer in Canada, its focused on helping users reduce food waste. It allows users keep stock of what they have left in their pantry, it also shows users recipees catered to their pantry, so they can have ideas on what to make with their pantry items so it doesn't get wasted."
+                link="https://pantr.netlify.app/"
               />
             </div>
             <div className="col-12 col-lg-6">
@@ -79,38 +89,38 @@ const Portfolio = () => {
             </div>
             <div className="col-12  col-lg-6 ">
               <Card
-                image={nikaShop}
-                header="Nika Clothing Store"
-                description="A shopping Cart app"
-                about="This is a fullstack shopping cart app built with React, Redux, firebase, Heroku, Google Auth, I implemented stripe payment checkout and also created a node server to handle credit card stripe payment on the backend. Every possible thing you can do on an e-commerce app is possible here as well."
-                link="https://nika-alpha-clothing.herokuapp.com/"
-              />
-            </div>
-            <div className="col-12  col-lg-6  ">
-              {/* <Card
-								image={pantry}
-								header="Pantry App"
-								description="React js, Redux, Jest, Unsplash Api, Edamam API."
-								about="Pantry App is a project I built with my PM and Product Designer in Canada, its focused on helping users reduce food waste. It allows users keep stock of what they have left in their pantry, it also shows users recipees catered to their pantry, so they can have ideas on what to make with their pantry items so it doesn't get wasted."
-								link="https://www.mypantryapp.me/"
-							/> */}
-              <Card
-                image={furrow}
-                header="Furrow.Studio"
-                description="Gatsby js, React 16 hooks, Canvas, Framer Motion, Gsap, Styled Components"
-                about={`This is a clone of the furrow.studio website, made with gatsby js, I used custom cursors, canvas api, framer motion for animations, intersection observers, for page scrolling and lots of react hooks new features like useReducer, useContext, useDispatch, Suspense etc, it also has a dark and white theme.`}
-                link="https://furrow-studios.vercel.app/"
-              />
-            </div>
-
-            <div className="col-12  col-lg-6  ">
-              <Card
                 image={oakhomesng}
                 header="BuildForSDG Projects"
                 description="React, useContext, dark and light theme"
                 about="The #BuildforSDG Challenge is a Facebook and Andela partnership initiative to up-skill developers across Sub-Saharan (Kenya, Uganda, Cameroon, Ghana, Nigeria and South-Africa) through a six-week immersive program where selected developers worked in agile remote teams to innovate on projects relating to the SDGs."
                 link="https://sdgbuild.netlify.app/"
               />
+            </div>
+            <div className="col-12  col-lg-6  ">
+              {/* <Card
+                image={pantry}
+                header="Pantry App"
+                description="React js, Redux, Jest, Unsplash Api, Edamam API."
+                about="Pantry App is a project I built alongside with my PM and Product Designer in Canada, its focused on helping users reduce food waste. It allows users keep stock of what they have left in their pantry, it also shows users recipees catered to their pantry, so they can have ideas on what to make with their pantry items so it doesn't get wasted."
+                link="https://www.mypantryapp.me/"
+              /> */}
+              <Card
+                image={VideoChat}
+                header="Skype Clone"
+                description="A clone of the popular Skype application, I used React, Socket.io, Simple Peer, WEB-RTC API, and a lot of other technologies to build this application."
+                about="This is an App that allows you place a call to your friends using web rtc technology and web sockets, when you send the link of the app to your friends, put in your name, copy your call-id, then send it to your friends, after your friend picks the call, you will see their video appear, your friend can also choose to decline and leave the call."
+                link="https://chat-call.netlify.app/"
+              />
+            </div>
+
+            <div className="col-12  col-lg-6  ">
+              {/* <Card
+                image={oakhomesng}
+                header="BuildForSDG Projects"
+                description="React, useContext, dark and light theme"
+                about="The #BuildforSDG Challenge is a Facebook and Andela partnership initiative to up-skill developers across Sub-Saharan (Kenya, Uganda, Cameroon, Ghana, Nigeria and South-Africa) through a six-week immersive program where selected developers worked in agile remote teams to innovate on projects relating to the SDGs."
+                link="https://sdgbuild.netlify.app/"
+              /> */}
             </div>
 
             <div className="col-12  col-lg-6 ">

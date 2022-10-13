@@ -1,16 +1,26 @@
 import React, { Component } from "react";
-import Crowdcoins from "../images/crowdcoins.png";
+// import Crowdcoins from "../images/crowdcoins.png";
 import VideoChat from "../images/video-chat.png";
+import Wibe from "../images/wibe.png";
 
 import p4 from "../images/help.png";
 import p5 from "../images/sdgimage.png";
-import NikaShop from "../images/nika-shop.png";
+// import NikaShop from "../images/nika-shop.png";
 import Waveroom from "../images/waveroom.png";
+import pantry from "../images/pantry.jpeg";
 
 class Portfolioscrollinhome extends Component {
   render() {
     return (
       <div className="items">
+        <a
+          rel="noopener noreferrer"
+          target="_blank"
+          href="https://wibe-collection.netlify.app/"
+        >
+          {" "}
+          <img className="item item3" src={Wibe} alt="Wibe Collection" />
+        </a>
         <a
           rel="noopener noreferrer"
           target="_blank"
@@ -41,12 +51,21 @@ class Portfolioscrollinhome extends Component {
         <a
           rel="noopener noreferrer"
           target="_blank"
+          href="https://pantr.netlify.app/"
+        >
+          {" "}
+          <img className="item item4" src={pantry} alt="Nika-clothing" />
+        </a>
+
+        {/* <a
+          rel="noopener noreferrer"
+          target="_blank"
           href="https://nika-alpha-clothing.herokuapp.com/"
         >
           {" "}
           <img className="item item4" src={NikaShop} alt="Nika-clothing" />
-        </a>
-        <a
+        </a> */}
+        {/* <a
           rel="noopener noreferrer"
           target="_blank"
           href="https://kickstarter-clone.vercel.app/"
@@ -57,16 +76,16 @@ class Portfolioscrollinhome extends Component {
             src={Crowdcoins}
             alt="Blockchain Application"
           />
-        </a>
+        </a> */}
 
-        <a
+        {/* <a
           rel="noopener noreferrer"
           target="_blank"
           href="https://peeps-frontend.vercel.app"
         >
           {" "}
           <img className="item item4" src={p4} alt="portfolio" />
-        </a>
+        </a> */}
 
         <a
           rel="noopener noreferrer"
