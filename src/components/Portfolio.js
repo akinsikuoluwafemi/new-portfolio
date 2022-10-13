@@ -2,7 +2,7 @@ import React from "react";
 import oakhomesng from "../images/sdgimage.png";
 import Card from "./Card";
 import help from "../images/help.png";
-import furrow from "../images/furrow.png";
+// import furrow from "../images/furrow.png";
 import Wibe from "../images/wibe.png";
 
 import { Helmet } from "react-helmet";
