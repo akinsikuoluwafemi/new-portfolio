@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import VideoChat from "../images/video-chat.png";
+// import VideoChat from "../images/video-chat.png";
 import Wibe from "../images/wibe.png";
 import Cat from "../images/catpp.png";
 

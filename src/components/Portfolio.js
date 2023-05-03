@@ -5,7 +5,7 @@ import Wibe from "../images/wibe.png";
 
 import { Helmet } from "react-helmet";
 
-import VideoChat from "../images/video-chat.png";
+// import VideoChat from "../images/video-chat.png";
 
 import Waveroom from "../images/waveroom.png";
 import pantry from "../images/pantry.jpeg";
