@@ -1,20 +1,19 @@
 import React from "react";
 import oakhomesng from "../images/sdgimage.png";
 import Card from "./Card";
-import help from "../images/help.png";
-// import furrow from "../images/furrow.png";
 import Wibe from "../images/wibe.png";
 
 import { Helmet } from "react-helmet";
 
-// import Crowdcoins from "../images/crowdcoins.png";
 import VideoChat from "../images/video-chat.png";
 
 import Waveroom from "../images/waveroom.png";
-// import nikaShop from "../images/nika-shop.png";
 import pantry from "../images/pantry.jpeg";
 
-import move from "../images/move.jpg";
+import Tinder from "../images/catdetail.png";
+import Onpeeps from "../images/onpeeps2.png";
+import CF from "../images/time-slot.png";
+
 import Footer from "./Footer";
 
 const Portfolio = () => {
@@ -30,13 +29,13 @@ const Portfolio = () => {
           </h3>
 
           <div className="row ">
-            <div className="col-12  col-lg-6  ">
+            <div className="col-12 col-lg-6">
               <Card
-                image={Wibe}
-                header="Wibe Collections"
-                description="React latest hooks, Framer Motion, Gsap, Styled Components"
-                about={`This a website that houses, amazing clothing collections, I used gsap scroll trigger, framer motion, styled components, react latest hooks, and a lot of other technologies to build this website.`}
-                link="https://wibe-collection.netlify.app/"
+                image={Tinder}
+                header="Tinder For Cats"
+                description="Nextjs Typescript, React hook form, yup, Prisma, Postgres, jwt, redux-toolkit, styled components"
+                about="This is a tinder for cats application, users can sign up, signin, favorites cats and also view their favorite cats, I also used vercel to deploy the frontend and use render to deploy the prisma backend. This app is fully authenticated, as i am using, jwt token to authenticate users, so unauthorized users cannot favorite cats or see other users favorite cats."
+                link="https://tinder4-cats-jdtg.vercel.app/"
               />
             </div>
             <div className="col-12  col-lg-6  ">
@@ -49,20 +48,28 @@ const Portfolio = () => {
               />
             </div>
             <div className="col-12  col-lg-6  ">
-              {/* <Card
-								image={biking}
-								header="Boulder Bike Tour"
-								description="React and Rails Application"
-								about="This is a fullstack application that lets users know when a prestegious cycling event will take place in colorado, I used rails on the backend and react on the front end, this app allows users see the exact location of riders on google map in real time."
-								link="https://boulder-bike-race.netlify.app/"
-							/> */}
-              {/* <Card
-                image={Crowdcoins}
-                header="Crowdcoins"
-                description="Next js and Solidity Application with Metamask wallet, truffle, ganache, web3, mocha and more.."
-                about="CrowdCoins is an app that dummies kick-starter, it allows users to create a campaign and raise funds for the campaign, it also allows users to donate to the campaign and get rewarded for their contribution. I wrote Smart contract using solidity and deployed the contract on the ethereum blockchain. I used next js to build the frontend."
-                link="https://kickstarter-clone.vercel.app/"
-              /> */}
+              <Card
+                image={Onpeeps}
+                header="OnPeeps"
+                description="Nextjs Typescript, Postgresql, Prisma, jwt, react-otp-input
+                , Google maps, Peerjs, redux-toolkit, styled components, Redis"
+                about="Onpeeps is a means of facilitating exchanged acts of kindness, we help in connecting people in need to willing volunteers globally. Users can log in, create a request, other users can see the request on the map, (their feeds), then click on a request and choose to volunteer, when you volunteer, you are sent to a real time messaging chat, where you can send a message to the user, I am using redis and peer js, to enable real time messaging and video call functionality, I am also using google maps to show the location of the user on the map
+                (Still in development)
+              "
+                link="https://onpeeps.com/"
+              />
+            </div>
+            <div className="col-12  col-lg-6  ">
+              <Card
+                image={Wibe}
+                header="Wibe Collections"
+                description="React latest hooks, Framer Motion, Gsap, Styled Components"
+                about={`This a website that houses, amazing clothing collections, I used gsap scroll trigger, framer motion, styled components, react latest hooks, and a lot of other technologies to build this website.`}
+                link="https://wibe-collection.netlify.app/"
+              />
+            </div>
+
+            <div className="col-12  col-lg-6  ">
               <Card
                 image={pantry}
                 header="Pantry App"
@@ -71,22 +78,7 @@ const Portfolio = () => {
                 link="https://pantr.netlify.app/"
               />
             </div>
-            <div className="col-12 col-lg-6">
-              <Card
-                image={help}
-                header="Peeps"
-                description="React, Rails, web sockets(actioncable), activestorage, heroku"
-                about="This is a fullstack application that allows peepsons with needs make requisition, other peepsons can also volunteer to meet their need after the request has been created. On volunteering you create a message flow between you and the peepson which allows you to send them a direct message in real time."
-                link="https://peeps-frontend.vercel.app"
-              />
-              {/* <Card
-								image={cart}
-								header="Shopies"
-								description="A shopping Cart app"
-								about="This is a frontend shopping cart app built with React and Redux, I implemented paypal payment checkout as well. I used ES6-ES10 javascript features, you can add to cart, increase and decrease an Item in the cart, You can view a single Item and also add it to the cart on the fly."
-								link="https://shoping-store.netlify.app/"
-							/> */}
-            </div>
+
             <div className="col-12  col-lg-6 ">
               <Card
                 image={oakhomesng}
@@ -96,14 +88,7 @@ const Portfolio = () => {
                 link="https://sdgbuild.netlify.app/"
               />
             </div>
-            <div className="col-12  col-lg-6  ">
-              {/* <Card
-                image={pantry}
-                header="Pantry App"
-                description="React js, Redux, Jest, Unsplash Api, Edamam API."
-                about="Pantry App is a project I built alongside with my PM and Product Designer in Canada, its focused on helping users reduce food waste. It allows users keep stock of what they have left in their pantry, it also shows users recipees catered to their pantry, so they can have ideas on what to make with their pantry items so it doesn't get wasted."
-                link="https://www.mypantryapp.me/"
-              /> */}
+            {/* <div className="col-12  col-lg-6  ">
               <Card
                 image={VideoChat}
                 header="Skype Clone"
@@ -111,25 +96,16 @@ const Portfolio = () => {
                 about="This is an App that allows you place a call to your friends using web rtc technology and web sockets, when you send the link of the app to your friends, put in your name, copy your call-id, then send it to your friends, after your friend picks the call, you will see their video appear, your friend can also choose to decline and leave the call."
                 link="https://chat-call.netlify.app/"
               />
-            </div>
+            </div> */}
 
             <div className="col-12  col-lg-6  ">
-              {/* <Card
-                image={oakhomesng}
-                header="BuildForSDG Projects"
-                description="React, useContext, dark and light theme"
-                about="The #BuildforSDG Challenge is a Facebook and Andela partnership initiative to up-skill developers across Sub-Saharan (Kenya, Uganda, Cameroon, Ghana, Nigeria and South-Africa) through a six-week immersive program where selected developers worked in agile remote teams to innovate on projects relating to the SDGs."
-                link="https://sdgbuild.netlify.app/"
-              /> */}
-            </div>
-
-            <div className="col-12  col-lg-6 ">
               <Card
-                image={move}
-                header="Move and Groove"
-                description="Ruby On Rails Application"
-                about="Move and Groove is an activity tracker tool that allows users sign up and create activities as well as track their activities."
-                link="https://fitandtracker.herokuapp.com/"
+                image={CF}
+                header="Book an appointment"
+                description="Nextjs Typescript, Postgresql, Prisma, jwt, react calendar, CF api"
+                about="This is a calendar app thats allows users select a times lot, and book an appointment based on the free time slot available, after clicking a time slot, you can now put in a reason for the call, you are also not able to pick a time slot you have picked before.
+              "
+                link="https://cf-calender.vercel.app/"
               />
             </div>
           </div>
