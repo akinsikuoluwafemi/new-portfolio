@@ -25,7 +25,7 @@ class Jumbotron extends Component {
               </h1>
 
               <h1 className="text-center  jumbo__header--text mt-3 text-white ">
-                Full-Stack Developer / Blockchain Developer
+                Software Engineer
               </h1>
 
               <span className="bb text-success">

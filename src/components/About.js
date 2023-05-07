@@ -34,29 +34,19 @@ const About = () => {
                       About Me
                     </h3>
                     <p className="row pr-5 text-success text--spacing">
-                      I am an agile minded Software Engineer with a growth
-                      Mindset, I am great at communication and also love giving
-                      and receiving feedback to/from the people I work with.
+                      With 5+ years of experience in commercial application
+                      development, I am a diligent Fullstack software engineer
+                      skilled in JavaScript, TypeScript, and Node.js. I also
+                      possess expertise in blockchain technology and Solidity
+                      smart contract development.
                     </p>
                     <p className="row pr-5 text-success text--spacing">
-                      I have a &nbsp;{" "}
-                      <a
-                        rel="noopener noreferrer"
-                        href="http://m.my-newsletter.info/axiom/OC/2021/07/H5CVM3U.pdf"
-                        target="_blank"
-                      >
-                        bachelors level(VI) degree diploma
-                      </a>
-                      on OpenClassrooms on FullStack Web Development, this
-                      scholarship was sponsored by Facebook. I am also a Mentor
-                      on{" "}
-                      <a
-                        rel="noopener noreferrer"
-                        href="https://openclassrooms.com/en/"
-                        target="_blank"
-                      >
-                        OpenClassrooms
-                      </a>
+                      Throughout my career, I have architected industry-level
+                      enterprises and developed products in diverse sectors such
+                      as marketplaces, healthcare, gaming, AI applications, and
+                      smart contract development. I am adept at adapting to
+                      various workflows and work styles, reducing
+                      development-production time.
                     </p>
                     {/* <p className="row pr-5 text-success text--spacing ">
 											I have solid cross-organizational and cross-cultural experience from the
@@ -76,11 +66,11 @@ const About = () => {
                       <span className="tools__description text-white">
                         Phone:
                       </span>
-                      <p className="tools__name">+2348103031691</p>
+                      <p className="tools__name">On Request</p>
                     </div>
                     <div className="m-auto py-4">
                       <a
-                        href="https://www.canva.com/design/DAEmFVwoQtQ/8Qkm-tLvj7ovx5h2ijN9DQ/view?utm_content=DAEmFVwoQtQ&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton"
+                        href="https://docs.google.com/document/d/1qquEyU8QZCsV1JY-SAC9aySLvqp6q-lP/edit?usp=sharing&ouid=101795484280244259466&rtpof=true&sd=true"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="btn-sm button-anim resume "

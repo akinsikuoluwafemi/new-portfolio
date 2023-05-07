@@ -27,7 +27,6 @@ const Footer = () => {
       </div>
       <div className="footer__contact__wrapper bg-dark">
         <div className="footer--contact">
-          <p className="text-white">+2348103031691</p>
           <p className="text-white">akinsiku.o@yahoo.com</p>
           <p className="text-white">
             &copy; -copyright {new Date().getFullYear()} | Femi Akinsiku
