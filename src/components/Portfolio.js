@@ -2,6 +2,7 @@ import React from "react";
 import oakhomesng from "../images/sdgimage.png";
 import Card from "./Card";
 import Wibe from "../images/wibe.png";
+import Cc2 from "../images/cc2.png";
 
 import { Helmet } from "react-helmet";
 
@@ -29,6 +30,15 @@ const Portfolio = () => {
           </h3>
 
           <div className="row ">
+            <div className="col-12 col-lg-6">
+              <Card
+                image={Cc2}
+                header="Currency Exchange"
+                description="Nextjs Typescript, React hook form, yup, redux-toolkit, styled components, exchange rate api, spark-line charts"
+                about="This is a fin-tech app, users can convert from one currency to another, I used the exchange rate api to get the exchange rate, I also used spark-line charts to show the exchange rate trends, users can be able to toggle/swap from a base currency to a target currency, users can also see the conversion history of exchanges they have made, users can also get exchange history by duration (7days, 14days, 30 days etc) and see a graph representation of the exchanges, they can also choose to view or delete the individual conversion history. I used react hook form and yup for form validation, I also used redux toolkit for state management, also redux-persist to persist state, moment for date formatting, I used styled components for styling, I also used next-js app router, and I used vercel to deploy the app."
+                link="https://conversion-app.vercel.app/"
+              />
+            </div>
             <div className="col-12 col-lg-6">
               <Card
                 image={Tinder}

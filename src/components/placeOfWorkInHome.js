@@ -17,10 +17,21 @@ const Placeofworkinhome = () => {
             <div className="d-flex justify-content-between ">
               <div className="text-white ">
                 <p>
+                  Aubay PT &nbsp;
+                  <span style={{ fontSize: "13px" }}>(in Lisbon)</span>
+                </p>
+                <p className="workdate">12.2023 - till date</p>
+              </div>
+              <p className="text-white">Frontend Engineer</p>
+            </div>
+
+            <div className="d-flex justify-content-between ">
+              <div className="text-white ">
+                <p>
                   MVP Factory &nbsp;
                   <span style={{ fontSize: "13px" }}>(in Berlin)</span>
                 </p>
-                <p className="workdate">07.2022 - till date</p>
+                <p className="workdate">07.2022 - 12.2022</p>
               </div>
               <p className="text-white">FullStack Developer</p>
             </div>
