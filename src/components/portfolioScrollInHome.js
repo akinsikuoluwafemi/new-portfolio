@@ -1,15 +1,15 @@
 import React, { Component } from "react";
 // import VideoChat from "../images/video-chat.png";
-import Wibe from "../images/wibe.png";
+// import Wibe from "../images/wibe.png";
 import Cat from "../images/catpp.png";
 
-import p5 from "../images/sdgimage.png";
+// import p5 from "../images/sdgimage.png";
 import Waveroom from "../images/waveroom.png";
 import Onpeeps from "../images/onpeeps.png";
-import CF from "../images/time-slot.png";
+// import CF from "../images/time-slot.png";
 import Cc1 from "../images/cc1.png";
 
-import pantry from "../images/pantry.jpeg";
+// import pantry from "../images/pantry.jpeg";
 
 class Portfolioscrollinhome extends Component {
   render() {
