@@ -3,6 +3,7 @@ import oakhomesng from "../images/sdgimage.png";
 import Card from "./Card";
 import Wibe from "../images/wibe.png";
 import Cc2 from "../images/cc2.png";
+import ST from "../images/st.png";
 
 import { Helmet } from "react-helmet";
 
@@ -30,6 +31,15 @@ const Portfolio = () => {
           </h3>
 
           <div className="row ">
+            <div className="col-12 col-lg-6">
+              <Card
+                image={ST}
+                header="Support Ticket App"
+                description="React-Typescript, Redux-toolkit, faker, react-testing-library, ts-node, mongodb, Docker, yup, react-hook-form, styled-component, morgan, supertest, joi, mongoose, express, Moment"
+                about="This is a fullstack application, a use case for this is when in house teams want to create support ticket, and check for deadlines. I am using React-Typescript in the frontend and mongodb, mongoose in the backend, I am also containerizing both applications using docker, I also have a docker compose file to spin up the applications locally, I also implemented frontend and backend testing on the app. I have a get all route, create route, edit route to edit a status of the ticket, I am also using different colors to indicate if the deadline is passed, done, or expired.  when spinning up with docker, have ports 3000 for frontend and port 4000 for backend available locally, steps to spin up the app are also available in the read me file. I can also create a random ticket, I also added a debounce to function, so there can be a delay before the function fires, this is a check that prevents users from clicking the button multiple times.  To Spin up, clone fro github, go to the root of the app on your terminal, make sure you have docker installed on your machine, do a 'docker-compose build' when successful, do a 'docker-compose up' then open the localhost of frontend on port 3000."
+                link="https://github.com/akinsikuoluwafemi/Support-Ticket"
+              />
+            </div>
             <div className="col-12 col-lg-6">
               <Card
                 image={Cc2}
@@ -89,13 +99,14 @@ const Portfolio = () => {
               />
             </div>
 
-            <div className="col-12  col-lg-6 ">
+            <div className="col-12  col-lg-6  ">
               <Card
-                image={oakhomesng}
-                header="BuildForSDG Projects"
-                description="React, useContext, dark and light theme"
-                about="The #BuildforSDG Challenge is a Facebook and Andela partnership initiative to up-skill developers across Sub-Saharan (Kenya, Uganda, Cameroon, Ghana, Nigeria and South-Africa) through a six-week immersive program where selected developers worked in agile remote teams to innovate on projects relating to the SDGs."
-                link="https://sdgbuild.netlify.app/"
+                image={CF}
+                header="Book an appointment"
+                description="Nextjs Typescript, Postgresql, Prisma, jwt, react calendar, CF api"
+                about="This is a calendar app thats allows users select a times lot, and book an appointment based on the free time slot available, after clicking a time slot, you can now put in a reason for the call, you are also not able to pick a time slot you have picked before.
+              "
+                link="https://cf-calender.vercel.app/"
               />
             </div>
             {/* <div className="col-12  col-lg-6  ">
@@ -108,14 +119,13 @@ const Portfolio = () => {
               />
             </div> */}
 
-            <div className="col-12  col-lg-6  ">
+            <div className="col-12  col-lg-6 ">
               <Card
-                image={CF}
-                header="Book an appointment"
-                description="Nextjs Typescript, Postgresql, Prisma, jwt, react calendar, CF api"
-                about="This is a calendar app thats allows users select a times lot, and book an appointment based on the free time slot available, after clicking a time slot, you can now put in a reason for the call, you are also not able to pick a time slot you have picked before.
-              "
-                link="https://cf-calender.vercel.app/"
+                image={oakhomesng}
+                header="BuildForSDG Projects"
+                description="React, useContext, dark and light theme"
+                about="The #BuildforSDG Challenge is a Facebook and Andela partnership initiative to up-skill developers across Sub-Saharan (Kenya, Uganda, Cameroon, Ghana, Nigeria and South-Africa) through a six-week immersive program where selected developers worked in agile remote teams to innovate on projects relating to the SDGs."
+                link="https://sdgbuild.netlify.app/"
               />
             </div>
           </div>
