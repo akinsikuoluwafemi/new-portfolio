@@ -3,17 +3,17 @@
   "name": "Femi's Portfolio",
   "icons": [
     {
-      "src": "new-photo.png",
+      "src": "fine-femi.png",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
     {
-      "src": "new-photo.png",
+      "src": "fine-femi.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "new-photo.png",
+      "src": "fine-femi.png",
       "type": "image/png",
       "sizes": "512x512"
     }
