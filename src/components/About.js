@@ -70,7 +70,7 @@ const About = () => {
                     </div>
                     <div className="m-auto py-4">
                       <a
-                        href="https://docs.google.com/document/d/1qquEyU8QZCsV1JY-SAC9aySLvqp6q-lP/edit?usp=sharing&ouid=101795484280244259466&rtpof=true&sd=true"
+                        href="https://docs.google.com/document/d/1Id8zZPEHECqxZMvzFG0hJForQtBgSGiNKSSPCSGIB7g/edit?usp=sharing"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="btn-sm button-anim resume "
