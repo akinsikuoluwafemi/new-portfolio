@@ -1,20 +1,22 @@
 import React, { Component } from "react";
-// import VideoChat from "../images/video-chat.png";
-// import Wibe from "../images/wibe.png";
-import Cat from "../images/catpp.png";
-
-// import p5 from "../images/sdgimage.png";
 import Waveroom from "../images/waveroom.png";
 import Onpeeps from "../images/onpeeps.png";
-// import CF from "../images/time-slot.png";
 import Cc1 from "../images/cc1.png";
+import NewsApp from "../images/news-app.png";
 
-// import pantry from "../images/pantry.jpeg";
 
 class Portfolioscrollinhome extends Component {
   render() {
     return (
       <div className="items">
+        <a
+          rel="noopener noreferrer"
+          target="_blank"
+          href="https://github.com/akinsikuoluwafemi/innoscripta"
+        >
+          {" "}
+          <img className="item item3" src={NewsApp} alt="News App" />
+        </a>
         <a
           rel="noopener noreferrer"
           target="_blank"
@@ -53,15 +55,6 @@ class Portfolioscrollinhome extends Component {
         </a>
 
         {/*  */}
-
-        <a
-          rel="noopener noreferrer"
-          target="_blank"
-          href="https://tinder4-cats-jdtg.vercel.app/"
-        >
-          {" "}
-          <img className="item item3" src={Cat} alt="Tinder For Cats" />
-        </a>
 
         {/*  */}
         {/* <a

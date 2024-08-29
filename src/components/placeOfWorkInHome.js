@@ -1,4 +1,48 @@
-import React from "react";
+const data = [
+  {
+    name: "Kindred (Publicis)",
+    location: "Prague",
+    date: "11.2023 - till date",
+    role: "Senior Frontend Engineer",
+  },
+  {
+    name: "Aubay PT",
+    location: "Lisbon",
+    date: "12.2022 - 11.2023",
+    role: "Frontend Engineer",
+  }, {
+    name: "MVP Factory",
+    location: "Berlin",
+    date: "07.2022 - 12.2022",
+    role: "FullStack Developer",
+  },
+  {
+    name: "Livetree",
+    location: "London",
+    date: "03.2022 - 05.2022",
+    role: "Blockchain Developer",
+  }, {
+    name: "Explorator Labs",
+    location: "Ontario",
+    date: "11.2021 - 03.2022",
+    role: "Fullstack Engineer",
+  }, {
+    name: "Hummingbirds AI",
+    location: "Seattle",
+    date: "6.2021 - 8.2021",
+    role: "Frontend Engineer",
+  }, {
+    name: "Hazon Holdings",
+    location: "Lagos",
+    date: "2.2021 - 6.2021",
+    role: "Frontend Engineer",
+  }, {
+    name: "Andela",
+    location: "Remote",
+    date: "10.2017 - 10.2020",
+    role: "Tech Consultant & Programme",
+  }
+]
 
 const Placeofworkinhome = () => {
   return (
@@ -14,83 +58,19 @@ const Placeofworkinhome = () => {
           <div className="col-12 col-lg-6">
             <hr className="gb " />
 
-            <div className="d-flex justify-content-between ">
-              <div className="text-white ">
-                <p>
-                  Aubay PT &nbsp;
-                  <span style={{ fontSize: "13px" }}>(in Lisbon)</span>
-                </p>
-                <p className="workdate">12.2023 - till date</p>
+            {data.map((item, index) => (
+              <div key={index} className="d-flex justify-content-between ">
+                <div className="text-white ">
+                  <p>
+                    {item.name} &nbsp;
+                    <span style={{ fontSize: "13px" }}>(in {item.location})</span>
+                  </p>
+                  <p className="workdate">{item.date}</p>
+                </div>
+                <p className="text-white">{item.role}</p>
               </div>
-              <p className="text-white">Frontend Engineer</p>
-            </div>
-
-            <div className="d-flex justify-content-between ">
-              <div className="text-white ">
-                <p>
-                  MVP Factory &nbsp;
-                  <span style={{ fontSize: "13px" }}>(in Berlin)</span>
-                </p>
-                <p className="workdate">07.2022 - 12.2022</p>
-              </div>
-              <p className="text-white">FullStack Developer</p>
-            </div>
-
-            <div className="d-flex justify-content-between ">
-              <div className="text-white ">
-                <p>
-                  Livetree &nbsp;
-                  <span style={{ fontSize: "13px" }}>(in London)</span>
-                </p>
-                <p className="workdate">03.2022 - 05.2022 </p>
-              </div>
-              <p className="text-white">Blockchain Developer</p>
-            </div>
-
-            <div className="d-flex justify-content-between ">
-              <div className="text-white ">
-                <p>
-                  Explorator Labs &nbsp;
-                  <span style={{ fontSize: "13px" }}>(in Ontario)</span>
-                </p>
-                <p className="workdate">11.2021 - 03.2022</p>
-              </div>
-              <p className="text-white">Fullstack Engineer</p>
-            </div>
-
-            <div className="d-flex justify-content-between ">
-              <div className="text-white ">
-                <p>
-                  Hummingbirds AI &nbsp;
-                  <span style={{ fontSize: "13px" }}>(in Seattle)</span>
-                </p>
-                <p className="workdate">6.2021 - 8.2021</p>
-              </div>
-              <p className="text-white">Frontend Engineer</p>
-            </div>
-
-            <div className="d-flex justify-content-between ">
-              <div className="text-white ">
-                <p>
-                  Hazon Holdings &nbsp;
-                  <span style={{ fontSize: "13px" }}>(in Lagos)</span>
-                </p>
-                <p className="workdate">2.2021 - 6.2021</p>
-              </div>
-              <p className="text-white">Frontend Engineer</p>
-            </div>
-
-            <div className="d-flex justify-content-between ">
-              <div className="text-white ">
-                <p>
-                  Andela <small>(contract based)</small>
-                </p>
-                <p className="workdate">10.2017 - 10.2020</p>
-              </div>
-              <p className="text-white">
-                Tech Consultant & Programme Assistant
-              </p>
-            </div>
+            )
+            )}
           </div>
         </div>
       </div>
