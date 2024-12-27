@@ -1,9 +1,9 @@
 const data = [
   {
     name: "Accenture",
-    location: "Norway-Oslo",
+    location: "Oslo",
     date: "12.2024 - till date",
-    role: "Software Engineer",
+    role: "Senior Software Engineer",
   },
   {
     name: "Kindred (Publicis)",
