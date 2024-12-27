@@ -10,11 +10,13 @@ const AboutInHome = () => {
               About Me
             </h3>
             <p className="row pr-5 text-success text--spacing">
-              Diligent software engineer with 5+ years experience in commercial
-              application development and Smart Contract Development. In past
-              roles I have architected industry level enterprise and have worked
-              on products centering around marketplaces, healthcare and AI
-              Applications.{" "}
+              Senior Software Engineer with {new Date().getFullYear() - 2018}+
+              years of experience in commercial application development,
+              specializing in microservices, microfrontends, and Module
+              Federation. I have a proven track record of architecting
+              enterprise-level solutions and delivering robust products across
+              industries including marketplaces, healthcare, and AI-driven
+              applications.
             </p>
             <p className="row pr-5 text-success text--spacing">
               {/* write something */}

@@ -1,8 +1,14 @@
 const data = [
   {
+    name: "Accenture",
+    location: "Norway-Oslo",
+    date: "12.2024 - till date",
+    role: "Software Engineer",
+  },
+  {
     name: "Kindred (Publicis)",
     location: "Prague",
-    date: "11.2023 - till date",
+    date: "11.2023 - 11.2024",
     role: "Senior Frontend Engineer",
   },
   {
@@ -10,7 +16,8 @@ const data = [
     location: "Lisbon",
     date: "12.2022 - 11.2023",
     role: "Frontend Engineer",
-  }, {
+  },
+  {
     name: "MVP Factory",
     location: "Berlin",
     date: "07.2022 - 12.2022",
@@ -21,28 +28,32 @@ const data = [
     location: "London",
     date: "03.2022 - 05.2022",
     role: "Blockchain Developer",
-  }, {
+  },
+  {
     name: "Explorator Labs",
     location: "Ontario",
     date: "11.2021 - 03.2022",
     role: "Fullstack Engineer",
-  }, {
+  },
+  {
     name: "Hummingbirds AI",
     location: "Seattle",
     date: "6.2021 - 8.2021",
     role: "Frontend Engineer",
-  }, {
+  },
+  {
     name: "Hazon Holdings",
     location: "Lagos",
     date: "2.2021 - 6.2021",
     role: "Frontend Engineer",
-  }, {
+  },
+  {
     name: "Andela",
     location: "Remote",
     date: "10.2017 - 10.2020",
     role: "Tech Consultant & Programme",
-  }
-]
+  },
+];
 
 const Placeofworkinhome = () => {
   return (
